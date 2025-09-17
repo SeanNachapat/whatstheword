@@ -4,7 +4,7 @@ import { useState, useRef, useEffect } from 'react';
 import Allwords from './word';
 
 const ButtonComponents = ({
-      text="",
+      text = "",
       onClick
 }) => {
       return (
@@ -20,9 +20,9 @@ const App = () => {
 
       const [wordInput, setWordInput] = useState([]);
       const [word, setWord] = useState({
-            word : [],
-            translation : '',
-            level : ''
+            word: [],
+            translation: '',
+            level: ''
       })
       const inputRef = useRef([]);
       const [shake, setShake] = useState(false);
@@ -33,7 +33,7 @@ const App = () => {
             setIsCorrect(false)
             setTimeout(() => setShake(false), 500);
       };
-      
+
       useEffect(() => {
             // initial
             if (word.word.length == 0) {
@@ -43,13 +43,17 @@ const App = () => {
 
       const RandomWord = () => {
             const Rand = Math.floor(Math.random() * Allwords.length)
+            const newWord = Allwords[Rand].word.split("")
+
             setWord({
-                  word : Allwords[Rand].word.split(""),
+                  word: newWord,
                   translation: Allwords[Rand].translation,
-                  level : Allwords[Rand].level
+                  level: Allwords[Rand].level
             })
-            // setWordInput(Array(Allwords[Rand].word.length).fill("")); 
-            return 0;
+            setWordInput(Array(newWord.length).fill(""))
+            setIsCorrect(false);
+            inputRef.current[0].focus()
+            inputRef.current = [] // reset refs
       }
 
       const onChangeText = (e, idx) => {
@@ -60,12 +64,14 @@ const App = () => {
             }
 
             if (value.length === 1 && idx < inputRef.current.length - 1) {
-                  inputRef.current[idx + 1].focus()
+                  if (inputRef.current[idx + 1]) {
+                        inputRef.current[idx + 1].focus()
+                  }
             }
 
             setWordInput((prev) => {
                   const newArr = [...prev]
-                  newArr[idx] = value
+                  newArr[idx] = value.toLowerCase();
 
                   return newArr;
             })
@@ -73,7 +79,9 @@ const App = () => {
 
       const onBackSpace = (e, idx) => {
             if (e.key == "Backspace" && idx > 0 && !e.target.value) {
-                  inputRef.current[idx - 1].focus();
+                  if (inputRef.current[idx - 1]) {
+                        inputRef.current[idx - 1].focus()
+                  }
                   setWordInput((prev) => {
                         const newArr = [...prev]
                         newArr[idx] = ""
@@ -99,20 +107,25 @@ const App = () => {
             const wordorg_str = (word.word).toString()
             const withOutCommOrg = wordorg_str.replace(/,/g, "")
 
+            console.log(wordInput)
             if (withOutCommOrg == withOutComm) {
+                  console.log("OK")
                   setIsCorrect(true)
+                  setTimeout(() => {
+                        RandomWord()
+                  }, 300);
             } else {
                   console.log("wrong")
                   triggerShake()
             }
       }
-      
+
       return (
             <>
 
                   <div className="absolute h-full top-0 left-0 p-5 flex flex-col gap-5 justify-center items-center">
                         {
-                              ['m','o','c','k'].map((item, index) => {
+                              ['m', 'o', 'c', 'k'].map((item, index) => {
                                     return (
                                           <>
                                                 <span className="text-6xl opacity-25">
