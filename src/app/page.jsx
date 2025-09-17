@@ -4,10 +4,11 @@ import { useState, useRef, useEffect } from 'react';
 import Allwords from './word';
 
 const ButtonComponents = ({
-      text=""
+      text="",
+      onClick
 }) => {
       return (
-            <div className="border border-black/20 py-2 px-5 rounded flex justify-center items-center hover:bg-black/10 transition-all hover:border-black/50 cursor-pointer">
+            <div className="border border-black/20 py-2 px-5 rounded flex justify-center items-center hover:bg-black/10 transition-all hover:border-black/50 cursor-pointer" onClick={onClick}>
                   <div className="text-xl">
                         {text}
                   </div>
@@ -24,9 +25,16 @@ const App = () => {
             level : ''
       })
       const inputRef = useRef([]);
+      const [shake, setShake] = useState(false);
+      const [isCorrect, setIsCorrect] = useState(false);
 
+      const triggerShake = () => {
+            setShake(true);
+            setIsCorrect(false)
+            setTimeout(() => setShake(false), 500);
+      };
+      
       useEffect(() => {
-            console.log(Allwords)
             // initial
             if (word.word.length == 0) {
                   RandomWord();
@@ -40,7 +48,7 @@ const App = () => {
                   translation: Allwords[Rand].translation,
                   level : Allwords[Rand].level
             })
-
+            // setWordInput(Array(Allwords[Rand].word.length).fill("")); 
             return 0;
       }
 
@@ -76,11 +84,26 @@ const App = () => {
 
             if (e.key == "Enter") {
                   if (idx + 1 == word.word.length) {
-                        console.log("Send")
+                        handleCheckWord()
+
                   } else {
                         // Shake
-                        console.log("Shake")
+                        triggerShake()
                   }
+            }
+      }
+
+      const handleCheckWord = () => {
+            const wordip_str = wordInput.toString()
+            const withOutComm = wordip_str.replace(/,/g, "")
+            const wordorg_str = (word.word).toString()
+            const withOutCommOrg = wordorg_str.replace(/,/g, "")
+
+            if (withOutCommOrg == withOutComm) {
+                  setIsCorrect(true)
+            } else {
+                  console.log("wrong")
+                  triggerShake()
             }
       }
       
@@ -105,18 +128,24 @@ const App = () => {
                               ช่วยทายหน่อยคำนี้แปลว่าอะไร ?
                         </div>
 
-                        <div className="text-4xl text-black font-bold underline">
-                              {word.translation == "" ? '...' : word.translation}
+                        <div className="flex flex-col gap-6 items-center">
+                              <div className="text-4xl text-black font-bold underline">
+                                    {word.translation == "" ? '...' : word.translation}
+                              </div>
+                              <div className="text-2xl text-black/50 font-bold flex gap-2">
+                                    ระดับคำศัพท์​ : <div className="underline">{word.level == "" ? '...' : word.level}</div>
+                              </div>
                         </div>
 
-                        <div className="flex flex-row gap-3 justify-center">
+                        <div className={`flex flex-row gap-3 justify-center ${shake && !isCorrect ? 'animate-shake text-red-600' : ((isCorrect) ? 'text-green-700' : "")}`}>
                               {
                                     ((!word.word || word.word.length !== 0) ? word.word.map((it, idx) => {
                                           return (
                                                 <>
                                                       <input
                                                             type="text"
-                                                            className="border-b border-black/20 focus:outline-none focus:border-black transition w-12 text-center text-5xl"
+                                                            value={wordInput[idx]}
+                                                            className="border-b border-black/40 focus:outline-none focus:border-black transition w-12 text-center text-5xl"
                                                             maxLength="1"
                                                             ref={(el) => inputRef.current[idx] = el}
                                                             onChange={(e) => onChangeText(e, idx)}
@@ -129,8 +158,8 @@ const App = () => {
                         </div>
 
                         <div className="flex gap-2 items-center">
-                              <ButtonComponents text="สุ่มคำศัพท์" />
-                              <ButtonComponents text="ยืนยันคำศัพท์" />
+                              <ButtonComponents onClick={() => RandomWord()} text="สุ่มคำศัพท์" />
+                              <ButtonComponents onClick={() => handleCheckWord()} text="ยืนยันคำศัพท์" />
                         </div>
 
                         <div className="flex items-center">
