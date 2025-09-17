@@ -1,6 +1,7 @@
 'use client'
 
-import { useState, useRef } from 'react';
+import { useState, useRef, useEffect } from 'react';
+import Allwords from './word';
 
 const ButtonComponents = ({
       text=""
@@ -16,12 +17,71 @@ const ButtonComponents = ({
 
 const App = () => {
 
-      const [wordInput, setWordInput] = useState("");
-      const [word, setWord] = useState(['a', 'b', 'c','a', 'b', 'c','a', 'b', 'c','a', 'b', 'c'])
+      const [wordInput, setWordInput] = useState([]);
+      const [word, setWord] = useState({
+            word : [],
+            translation : '',
+            level : ''
+      })
       const inputRef = useRef([]);
 
-      const ChangeWord = () => {
+      useEffect(() => {
+            console.log(Allwords)
+            // initial
+            if (word.word.length == 0) {
+                  RandomWord();
+            }
+      })
 
+      const RandomWord = () => {
+            const Rand = Math.floor(Math.random() * Allwords.length)
+            setWord({
+                  word : Allwords[Rand].word.split(""),
+                  translation: Allwords[Rand].translation,
+                  level : Allwords[Rand].level
+            })
+
+            return 0;
+      }
+
+      const onChangeText = (e, idx) => {
+            const value = e.target.value;
+
+            if (value.length > 1) {
+                  e.traget.value = value.charAt(0)
+            }
+
+            if (value.length === 1 && idx < inputRef.current.length - 1) {
+                  inputRef.current[idx + 1].focus()
+            }
+
+            setWordInput((prev) => {
+                  const newArr = [...prev]
+                  newArr[idx] = value
+
+                  return newArr;
+            })
+      }
+
+      const onBackSpace = (e, idx) => {
+            if (e.key == "Backspace" && idx > 0 && !e.target.value) {
+                  inputRef.current[idx - 1].focus();
+                  setWordInput((prev) => {
+                        const newArr = [...prev]
+                        newArr[idx] = ""
+
+                        return newArr;
+                  })
+            }
+
+            if (e.key == "Enter") {
+                  if (idx + 1 == word.word.length) {
+                        console.log("Send")
+                  } else {
+                        // Shake
+                        console.log("Shake")
+                  }
+            }
       }
       
       return (
@@ -41,13 +101,17 @@ const App = () => {
                         }
                   </div>
                   <div className="w-screen h-screen flex justify-center items-center flex-col gap-8">
-                        <div className="text-5xl text-black font-bold">
+                        <div className="text-5xl text-black/70 font-bold">
                               ช่วยทายหน่อยคำนี้แปลว่าอะไร ?
+                        </div>
+
+                        <div className="text-4xl text-black font-bold underline">
+                              {word.translation == "" ? '...' : word.translation}
                         </div>
 
                         <div className="flex flex-row gap-3 justify-center">
                               {
-                                    ((!word || word.length !== 0) ? word.map((it, idx) => {
+                                    ((!word.word || word.word.length !== 0) ? word.word.map((it, idx) => {
                                           return (
                                                 <>
                                                       <input
@@ -55,7 +119,8 @@ const App = () => {
                                                             className="border-b border-black/20 focus:outline-none focus:border-black transition w-12 text-center text-5xl"
                                                             maxLength="1"
                                                             ref={(el) => inputRef.current[idx] = el}
-                                                            
+                                                            onChange={(e) => onChangeText(e, idx)}
+                                                            onKeyDown={(e) => onBackSpace(e, idx)}
                                                       />
                                                 </>
                                           )
