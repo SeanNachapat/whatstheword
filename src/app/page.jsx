@@ -108,7 +108,6 @@ const App = () => {
             const wordorg_str = (word.word).toString()
             const withOutCommOrg = wordorg_str.replace(/,/g, "")
 
-            console.log(wordInput)
             if (withOutCommOrg == withOutComm) {
                   setIsCorrect(true)
                   inputRef.current[0].focus()
