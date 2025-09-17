@@ -39,7 +39,7 @@ const App = () => {
             if (word.word.length == 0) {
                   RandomWord();
             }
-      })
+      }, [])
 
       const RandomWord = () => {
             const Rand = Math.floor(Math.random() * Allwords.length)
@@ -52,8 +52,7 @@ const App = () => {
             })
             setWordInput(Array(newWord.length).fill(""))
             setIsCorrect(false);
-            inputRef.current[0].focus()
-            inputRef.current = [] // reset refs
+            inputRef.current = []
       }
 
       const onChangeText = (e, idx) => {
@@ -93,7 +92,6 @@ const App = () => {
             if (e.key == "Enter") {
                   if (idx + 1 == word.word.length) {
                         handleCheckWord()
-
                   } else {
                         // Shake
                         triggerShake()
@@ -111,6 +109,7 @@ const App = () => {
             if (withOutCommOrg == withOutComm) {
                   console.log("OK")
                   setIsCorrect(true)
+                  inputRef.current[0].focus()
                   setTimeout(() => {
                         RandomWord()
                   }, 300);
