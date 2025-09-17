@@ -28,6 +28,8 @@ const App = () => {
       const [shake, setShake] = useState(false);
       const [isCorrect, setIsCorrect] = useState(false);
 
+      const [tryWord, setTryWord] = useState(0)
+
       const triggerShake = () => {
             setShake(true);
             setIsCorrect(false)
@@ -95,6 +97,7 @@ const App = () => {
                   } else {
                         // Shake
                         triggerShake()
+                        setTryWord(prev => prev + 1);
                   }
             }
       }
@@ -107,49 +110,45 @@ const App = () => {
 
             console.log(wordInput)
             if (withOutCommOrg == withOutComm) {
-                  console.log("OK")
                   setIsCorrect(true)
                   inputRef.current[0].focus()
+                  setTryWord(0);
                   setTimeout(() => {
                         RandomWord()
                   }, 300);
             } else {
-                  console.log("wrong")
                   triggerShake()
+                  setTryWord(prev => prev + 1);
+            }
+      }
+
+      const SeeAnswer = () => {
+            for (let index = 0; index < (word.word).length; index++) {
+                  setWordInput([...word.word])
+                  setTryWord(0);
+                  setTimeout(() => {
+                        RandomWord()
+                  }, 1300);
             }
       }
 
       return (
             <>
-
-                  <div className="absolute h-full top-0 left-0 p-5 flex flex-col gap-5 justify-center items-center">
-                        {
-                              ['m', 'o', 'c', 'k'].map((item, index) => {
-                                    return (
-                                          <>
-                                                <span className="text-6xl opacity-25">
-                                                      {item}
-                                                </span>
-                                          </>
-                                    )
-                              })
-                        }
-                  </div>
                   <div className="w-screen h-screen flex justify-center items-center flex-col gap-8">
-                        <div className="text-5xl text-black/70 font-bold">
+                        <div className="text-2xl md:text-5xl text-black/70 font-bold">
                               ช่วยทายหน่อยคำนี้แปลว่าอะไร ?
                         </div>
 
                         <div className="flex flex-col gap-6 items-center">
-                              <div className="text-4xl text-black font-bold underline">
+                              <div className="text-2xl md:text-4xl text-black font-bold underline">
                                     {word.translation == "" ? '...' : word.translation}
                               </div>
-                              <div className="text-2xl text-black/50 font-bold flex gap-2">
+                              <div className="text-md md:text-2xl text-black/50 font-bold flex gap-2">
                                     ระดับคำศัพท์​ : <div className="underline">{word.level == "" ? '...' : word.level}</div>
                               </div>
                         </div>
 
-                        <div className={`flex flex-row gap-3 justify-center ${shake && !isCorrect ? 'animate-shake text-red-600' : ((isCorrect) ? 'text-green-700' : "")}`}>
+                        <div className={`flex flex-row gap-3 justify-center items-center ${shake && !isCorrect ? 'animate-shake text-red-600' : ((isCorrect) ? 'text-green-700' : "")}`}>
                               {
                                     ((!word.word || word.word.length !== 0) ? word.word.map((it, idx) => {
                                           return (
@@ -157,7 +156,7 @@ const App = () => {
                                                       <input
                                                             type="text"
                                                             value={wordInput[idx]}
-                                                            className="border-b border-black/40 focus:outline-none focus:border-black transition w-12 text-center text-5xl"
+                                                            className="border-b border-black/40 focus:outline-none focus:border-black transition w-6 md:w-12 text-center text-2xl md:text-5xl"
                                                             maxLength="1"
                                                             ref={(el) => inputRef.current[idx] = el}
                                                             onChange={(e) => onChangeText(e, idx)}
@@ -167,11 +166,29 @@ const App = () => {
                                           )
                                     }) : "")
                               }
+                              <div className="text-2xl md:text-5xl">
+                                    x {tryWord}
+                              </div>
                         </div>
 
-                        <div className="flex gap-2 items-center">
+                        <div className="flex items-center gap-3">
+                              <div className="text-xl">
+                                    จำนวนคำ :
+                              </div>
+                              <div className="text-3xl underline font-bold">
+                                    {word.word.length}
+                              </div>
+                              <div className="text-xl">
+                                    คำ
+                              </div>
+                        </div>
+                        
+                        <div className="flex gap-2 items-center flex-wrap justify-center">
                               <ButtonComponents onClick={() => RandomWord()} text="สุ่มคำศัพท์" />
                               <ButtonComponents onClick={() => handleCheckWord()} text="ยืนยันคำศัพท์" />
+                              {
+                                    ((tryWord >= 3) ? <ButtonComponents onClick={() => SeeAnswer()} text="เฉลย" /> : null)
+                              }
                         </div>
 
                         <div className="flex items-center">
