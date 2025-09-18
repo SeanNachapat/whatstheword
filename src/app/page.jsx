@@ -2,6 +2,7 @@
 
 import { useState, useRef, useEffect } from 'react';
 import Allwords from './word';
+import ScoreBoard from './components/Scoreboard';
 
 const ButtonComponents = ({
       text = "",
@@ -112,6 +113,9 @@ const App = () => {
                   setIsCorrect(true)
                   inputRef.current[0].focus()
                   setTryWord(0);
+                  setUserInLocal({
+                        isCorrect: true
+                  })
                   setTimeout(() => {
                         RandomWord()
                   }, 300);
@@ -125,14 +129,47 @@ const App = () => {
             for (let index = 0; index < (word.word).length; index++) {
                   setWordInput([...word.word])
                   setTryWord(0);
+                  setUserInLocal({
+                        isCorrect: false
+                  })
                   setTimeout(() => {
                         RandomWord()
                   }, 1300);
             }
       }
+      const setUserInLocal = ({ isCorrect = false }) => {
+            let users = JSON.parse(localStorage.getItem("users")) || [];
+            users = users.map(u => (typeof u === "string" ? JSON.parse(u) : u));
+
+            const name = localStorage.getItem("name");
+            let user = users.find(d => d.name === name);
+
+            if (user) {
+                  if (isCorrect) {
+                        user.correct = (user.correct || 0) + 1;
+                  } else {
+                        user.wrong = (user.wrong || 0) + 1;
+                  }
+            } else {
+                  const enteredName = window.prompt("Name rai i nong ?");
+                  if (enteredName && enteredName.trim() !== "") {
+                        user = {
+                              name: enteredName,
+                              correct: isCorrect ? 1 : 0,
+                              wrong: isCorrect ? 0 : 1,
+                        };
+                        users.push(user);
+                        localStorage.setItem("name", enteredName);
+                  }
+            }
+
+            localStorage.setItem("users", JSON.stringify(users));
+      };
+
 
       return (
             <>
+                  <ScoreBoard />
                   <div className="w-screen h-screen flex justify-center items-center flex-col gap-8">
                         <div className="text-2xl md:text-5xl text-black/70 font-bold">
                               ช่วยทายหน่อยคำนี้แปลว่าอะไร ?
@@ -181,7 +218,7 @@ const App = () => {
                                     คำ
                               </div>
                         </div>
-                        
+
                         <div className="flex gap-2 items-center flex-wrap justify-center">
                               <ButtonComponents onClick={() => RandomWord()} text="สุ่มคำศัพท์" />
                               <ButtonComponents onClick={() => handleCheckWord()} text="ยืนยันคำศัพท์" />
