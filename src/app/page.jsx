@@ -211,13 +211,13 @@ const App = () => {
 
                         <div className="flex items-center gap-3">
                               <div className="text-xl">
-                                    จำนวนคำ :
+                                    จำนวนตัวอักษร :
                               </div>
                               <div className="text-3xl underline font-bold">
                                     {word.word.length}
                               </div>
                               <div className="text-xl">
-                                    คำ
+                                    ตัว
                               </div>
                         </div>
 
