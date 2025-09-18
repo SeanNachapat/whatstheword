@@ -24,6 +24,8 @@ const App = () => {
       const [word, setWord] = useState({
             word: [],
             translation: '',
+            definition: '',
+            partOfSpeech: '',
             level: ''
       })
       const inputRef = useRef([]);
@@ -52,6 +54,8 @@ const App = () => {
             setWord({
                   word: newWord,
                   translation: Allwords[Rand].translation,
+                  definition: Allwords[Rand].definition,
+                  partOfSpeech: Allwords[Rand].partOfSpeech,
                   level: Allwords[Rand].level
             })
             setWordInput(Array(newWord.length).fill(""))
@@ -181,8 +185,10 @@ const App = () => {
                               <div className="text-2xl md:text-4xl text-black font-bold underline">
                                     {word.translation == "" ? '...' : word.translation}
                               </div>
-                              <div className="text-md md:text-2xl text-black/50 font-bold flex gap-2">
-                                    ระดับคำศัพท์​ : <div className="underline">{word.level == "" ? '...' : word.level}</div>
+                              <div className="text-md md:text-2xl text-black/50 font-bold flex gap-6">
+                                    <div className='flex gap-2'>ระดับคำศัพท์​ : <div className="underline">{word.level == "" ? '...' : word.level}</div></div>
+                                    <div className='flex gap-2'>ประเภทของคำ : <div className="underline italic">{word.partOfSpeech == "" ? '...' : word.partOfSpeech}</div></div>
+
                               </div>
                         </div>
 
