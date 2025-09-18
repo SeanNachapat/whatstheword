@@ -1,5 +1,6 @@
 import { Kanit } from "next/font/google";
 import "./globals.css";
+import Footer from "./components/Footer";
 
 const kanit = Kanit({
   subsets: ["latin", "thai"],
@@ -16,6 +17,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${kanit.className}`}>
         {children}
+        <Footer />
       </body>
     </html>
   );

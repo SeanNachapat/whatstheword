@@ -3,6 +3,7 @@
 import { useState, useRef, useEffect } from 'react';
 import Allwords from './word';
 import ScoreBoard from './components/Scoreboard';
+import Progress from './components/Progress';
 
 const ButtonComponents = ({
       text = "",
@@ -169,6 +170,7 @@ const App = () => {
 
       return (
             <>
+                  {/* <Progress timer={0} /> */}
                   <ScoreBoard />
                   <div className="w-screen h-screen flex justify-center items-center flex-col gap-8">
                         <div className="text-2xl md:text-5xl text-black/70 font-bold">
