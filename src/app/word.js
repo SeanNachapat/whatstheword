@@ -2525,6 +2525,2421 @@ const Allwords = [
       "definition": "Showing moderation or self-restraint",
       "partOfSpeech": "adjective",
       "level": "C2"
+    },
+    {
+      "word": "orange",
+      "translation": "สีส้ม",
+      "definition": "A color between red and yellow",
+      "partOfSpeech": "adjective",
+      "level": "A1"
+    },
+    {
+      "word": "black",
+      "translation": "สีดำ",
+      "definition": "The darkest color, opposite of white",
+      "partOfSpeech": "adjective",
+      "level": "A1"
+    },
+    {
+      "word": "yellow",
+      "translation": "สีเหลือง",
+      "definition": "The color of the sun or gold",
+      "partOfSpeech": "adjective",
+      "level": "A1"
+    },
+    {
+      "word": "purple",
+      "translation": "สีม่วง",
+      "definition": "A color made by mixing red and blue",
+      "partOfSpeech": "adjective",
+      "level": "A1"
+    },
+    {
+      "word": "brown",
+      "translation": "สีน้ำตาล",
+      "definition": "The color of earth or wood",
+      "partOfSpeech": "adjective",
+      "level": "A1"
+    },
+    {
+      "word": "pink",
+      "translation": "สีชมพู",
+      "definition": "A pale red color",
+      "partOfSpeech": "adjective",
+      "level": "A1"
+    },
+    {
+      "word": "gray",
+      "translation": "สีเทา",
+      "definition": "A color between black and white",
+      "partOfSpeech": "adjective",
+      "level": "A1"
+    },
+    {
+      "word": "hot",
+      "translation": "ร้อน",
+      "definition": "Having a high temperature",
+      "partOfSpeech": "adjective",
+      "level": "A1"
+    },
+    {
+      "word": "cold",
+      "translation": "เย็น",
+      "definition": "Having a low temperature",
+      "partOfSpeech": "adjective",
+      "level": "A1"
+    },
+    {
+      "word": "warm",
+      "translation": "อุ่น",
+      "definition": "Having some heat but not hot",
+      "partOfSpeech": "adjective",
+      "level": "A1"
+    },
+    {
+      "word": "cool",
+      "translation": "เย็นสบาย",
+      "definition": "Fairly cold; not warm",
+      "partOfSpeech": "adjective",
+      "level": "A1"
+    },
+    {
+      "word": "tall",
+      "translation": "สูง",
+      "definition": "Having great height",
+      "partOfSpeech": "adjective",
+      "level": "A1"
+    },
+    {
+      "word": "short",
+      "translation": "เตี้ย",
+      "definition": "Having little height",
+      "partOfSpeech": "adjective",
+      "level": "A1"
+    },
+    {
+      "word": "long",
+      "translation": "ยาว",
+      "definition": "Measuring a great distance from end to end",
+      "partOfSpeech": "adjective",
+      "level": "A1"
+    },
+    {
+      "word": "wide",
+      "translation": "กว้าง",
+      "definition": "Having a great extent from side to side",
+      "partOfSpeech": "adjective",
+      "level": "A1"
+    },
+    {
+      "word": "narrow",
+      "translation": "แคบ",
+      "definition": "Having a small width in relation to length",
+      "partOfSpeech": "adjective",
+      "level": "A1"
+    },
+    {
+      "word": "thick",
+      "translation": "หนา",
+      "definition": "Having a large distance between surfaces",
+      "partOfSpeech": "adjective",
+      "level": "A1"
+    },
+    {
+      "word": "thin",
+      "translation": "บาง",
+      "definition": "Having little thickness",
+      "partOfSpeech": "adjective",
+      "level": "A1"
+    },
+    {
+      "word": "heavy",
+      "translation": "หนัก",
+      "definition": "Having great weight",
+      "partOfSpeech": "adjective",
+      "level": "A1"
+    },
+    {
+      "word": "light",
+      "translation": "เบา",
+      "definition": "Having little weight",
+      "partOfSpeech": "adjective",
+      "level": "A1"
+    },
+    {
+      "word": "fast",
+      "translation": "เร็ว",
+      "definition": "Moving or able to move quickly",
+      "partOfSpeech": "adjective",
+      "level": "A1"
+    },
+    {
+      "word": "slow",
+      "translation": "ช้า",
+      "definition": "Moving at low speed",
+      "partOfSpeech": "adjective",
+      "level": "A1"
+    },
+    {
+      "word": "new",
+      "translation": "ใหม่",
+      "definition": "Not existing before; made recently",
+      "partOfSpeech": "adjective",
+      "level": "A1"
+    },
+    {
+      "word": "old",
+      "translation": "เก่า",
+      "definition": "Having lived or existed for many years",
+      "partOfSpeech": "adjective",
+      "level": "A1"
+    },
+    {
+      "word": "young",
+      "translation": "หนุ่มสาว",
+      "definition": "Having lived for only a short time",
+      "partOfSpeech": "adjective",
+      "level": "A1"
+    },
+    {
+      "word": "strong",
+      "translation": "แข็งแรง",
+      "definition": "Having great power or force",
+      "partOfSpeech": "adjective",
+      "level": "A1"
+    },
+    {
+      "word": "weak",
+      "translation": "อ่อนแอ",
+      "definition": "Lacking physical strength",
+      "partOfSpeech": "adjective",
+      "level": "A1"
+    },
+    {
+      "word": "clean",
+      "translation": "สะอาด",
+      "definition": "Free from dirt or stains",
+      "partOfSpeech": "adjective",
+      "level": "A1"
+    },
+    {
+      "word": "dirty",
+      "translation": "สกปรก",
+      "definition": "Covered with dirt or stains",
+      "partOfSpeech": "adjective",
+      "level": "A1"
+    },
+    {
+      "word": "rich",
+      "translation": "รวย",
+      "definition": "Having a lot of money or valuable possessions",
+      "partOfSpeech": "adjective",
+      "level": "A1"
+    },
+    {
+      "word": "poor",
+      "translation": "จน",
+      "definition": "Having little money or few possessions",
+      "partOfSpeech": "adjective",
+      "level": "A1"
+    },
+    {
+      "word": "cheap",
+      "translation": "ถูก",
+      "definition": "Low in price",
+      "partOfSpeech": "adjective",
+      "level": "A1"
+    },
+    {
+      "word": "expensive",
+      "translation": "แพง",
+      "definition": "Costing a lot of money",
+      "partOfSpeech": "adjective",
+      "level": "A1"
+    },
+    {
+      "word": "easy",
+      "translation": "ง่าย",
+      "definition": "Achieved with ease; not difficult",
+      "partOfSpeech": "adjective",
+      "level": "A1"
+    },
+    {
+      "word": "hard",
+      "translation": "ยาก",
+      "definition": "Requiring a lot of effort",
+      "partOfSpeech": "adjective",
+      "level": "A1"
+    },
+    {
+      "word": "open",
+      "translation": "เปิด",
+      "definition": "Not closed or blocked",
+      "partOfSpeech": "adjective",
+      "level": "A1"
+    },
+    {
+      "word": "close",
+      "translation": "ปิด",
+      "definition": "To shut something",
+      "partOfSpeech": "verb",
+      "level": "A1"
+    },
+    {
+      "word": "right",
+      "translation": "ขวา",
+      "definition": "On or toward the side of the body to the east",
+      "partOfSpeech": "adjective",
+      "level": "A1"
+    },
+    {
+      "word": "left",
+      "translation": "ซ้าย",
+      "definition": "On or toward the side of the body to the west",
+      "partOfSpeech": "adjective",
+      "level": "A1"
+    },
+    {
+      "word": "up",
+      "translation": "ขึ้น",
+      "definition": "Toward a higher position",
+      "partOfSpeech": "adverb",
+      "level": "A1"
+    },
+    {
+      "word": "down",
+      "translation": "ลง",
+      "definition": "Toward a lower position",
+      "partOfSpeech": "adverb",
+      "level": "A1"
+    },
+    {
+      "word": "early",
+      "translation": "เร็ว",
+      "definition": "Before the usual time",
+      "partOfSpeech": "adverb",
+      "level": "A2"
+    },
+    {
+      "word": "late",
+      "translation": "สาย",
+      "definition": "After the expected time",
+      "partOfSpeech": "adverb",
+      "level": "A2"
+    },
+    {
+      "word": "busy",
+      "translation": "ยุ่ง",
+      "definition": "Having a lot to do",
+      "partOfSpeech": "adjective",
+      "level": "A2"
+    },
+    {
+      "word": "free",
+      "translation": "ว่าง",
+      "definition": "Not occupied or in use",
+      "partOfSpeech": "adjective",
+      "level": "A2"
+    },
+    {
+      "word": "tired",
+      "translation": "เหนื่อย",
+      "definition": "Feeling the need for sleep or rest",
+      "partOfSpeech": "adjective",
+      "level": "A2"
+    },
+    {
+      "word": "hungry",
+      "translation": "หิว",
+      "definition": "Feeling the need for food",
+      "partOfSpeech": "adjective",
+      "level": "A2"
+    },
+    {
+      "word": "thirsty",
+      "translation": "กระหาย",
+      "definition": "Feeling the need for drink",
+      "partOfSpeech": "adjective",
+      "level": "A2"
+    },
+    {
+      "word": "sick",
+      "translation": "ป่วย",
+      "definition": "Not in good health",
+      "partOfSpeech": "adjective",
+      "level": "A2"
+    },
+    {
+      "word": "healthy",
+      "translation": "แข็งแรง",
+      "definition": "In good physical condition",
+      "partOfSpeech": "adjective",
+      "level": "A2"
+    },
+    {
+      "word": "angry",
+      "translation": "โกรธ",
+      "definition": "Feeling or showing annoyance",
+      "partOfSpeech": "adjective",
+      "level": "A2"
+    },
+    {
+      "word": "sad",
+      "translation": "เศร้า",
+      "definition": "Feeling sorrow or unhappiness",
+      "partOfSpeech": "adjective",
+      "level": "A2"
+    },
+    {
+      "word": "excited",
+      "translation": "ตื่นเต้น",
+      "definition": "Feeling great enthusiasm and eagerness",
+      "partOfSpeech": "adjective",
+      "level": "A2"
+    },
+    {
+      "word": "worried",
+      "translation": "กังวล",
+      "definition": "Anxious or troubled about something",
+      "partOfSpeech": "adjective",
+      "level": "A2"
+    },
+    {
+      "word": "surprised",
+      "translation": "แปลกใจ",
+      "definition": "Feeling mild astonishment",
+      "partOfSpeech": "adjective",
+      "level": "A2"
+    },
+    {
+      "word": "scared",
+      "translation": "กลัว",
+      "definition": "Feeling fear or anxiety",
+      "partOfSpeech": "adjective",
+      "level": "A2"
+    },
+    {
+      "word": "confused",
+      "translation": "สับสน",
+      "definition": "Unable to think clearly",
+      "partOfSpeech": "adjective",
+      "level": "A2"
+    },
+    {
+      "word": "interested",
+      "translation": "สนใจ",
+      "definition": "Showing curiosity about something",
+      "partOfSpeech": "adjective",
+      "level": "A2"
+    },
+    {
+      "word": "bored",
+      "translation": "เบื่อ",
+      "definition": "Feeling weary from lack of interest",
+      "partOfSpeech": "adjective",
+      "level": "A2"
+    },
+    {
+      "word": "relaxed",
+      "translation": "ผ่อนคลาย",
+      "definition": "Free from tension and anxiety",
+      "partOfSpeech": "adjective",
+      "level": "A2"
+    },
+    {
+      "word": "stressed",
+      "translation": "เครียด",
+      "definition": "Experiencing mental pressure",
+      "partOfSpeech": "adjective",
+      "level": "A2"
+    },
+    {
+      "word": "cheerful",
+      "translation": "ร่าเริง",
+      "definition": "Noticeably happy and optimistic",
+      "partOfSpeech": "adjective",
+      "level": "A2"
+    },
+    {
+      "word": "serious",
+      "translation": "จริงจัง",
+      "definition": "Demanding careful consideration",
+      "partOfSpeech": "adjective",
+      "level": "A2"
+    },
+    {
+      "word": "funny",
+      "translation": "ตลก",
+      "definition": "Causing laughter or amusement",
+      "partOfSpeech": "adjective",
+      "level": "A2"
+    },
+    {
+      "word": "strange",
+      "translation": "แปลก",
+      "definition": "Unusual or surprising",
+      "partOfSpeech": "adjective",
+      "level": "A2"
+    },
+    {
+      "word": "normal",
+      "translation": "ปกติ",
+      "definition": "Conforming to a standard",
+      "partOfSpeech": "adjective",
+      "level": "A2"
+    },
+    {
+      "word": "special",
+      "translation": "พิเศษ",
+      "definition": "Better, greater, or different from what is usual",
+      "partOfSpeech": "adjective",
+      "level": "A2"
+    },
+    {
+      "word": "popular",
+      "translation": "ได้รับความนิยม",
+      "definition": "Liked or admired by many people",
+      "partOfSpeech": "adjective",
+      "level": "A2"
+    },
+    {
+      "word": "famous",
+      "translation": "มีชื่อเสียง",
+      "definition": "Known about by many people",
+      "partOfSpeech": "adjective",
+      "level": "A2"
+    },
+    {
+      "word": "successful",
+      "translation": "ประสบความสำเร็จ",
+      "definition": "Accomplishing an aim or purpose",
+      "partOfSpeech": "adjective",
+      "level": "A2"
+    },
+    {
+      "word": "useful",
+      "translation": "มีประโยชน์",
+      "definition": "Able to be used for a practical purpose",
+      "partOfSpeech": "adjective",
+      "level": "A2"
+    },
+    {
+      "word": "useless",
+      "translation": "ไร้ประโยชน์",
+      "definition": "Not fulfilling any function",
+      "partOfSpeech": "adjective",
+      "level": "A2"
+    },
+    {
+      "word": "careful",
+      "translation": "ระวัง",
+      "definition": "Making sure to avoid potential danger",
+      "partOfSpeech": "adjective",
+      "level": "A2"
+    },
+    {
+      "word": "careless",
+      "translation": "ประมาท",
+      "definition": "Not giving sufficient attention",
+      "partOfSpeech": "adjective",
+      "level": "A2"
+    },
+    {
+      "word": "polite",
+      "translation": "สุภาพ",
+      "definition": "Having good manners",
+      "partOfSpeech": "adjective",
+      "level": "A2"
+    },
+    {
+      "word": "rude",
+      "translation": "หยาบคาย",
+      "definition": "Offensively impolite",
+      "partOfSpeech": "adjective",
+      "level": "A2"
+    },
+    {
+      "word": "friendly",
+      "translation": "เป็นมิตร",
+      "definition": "Kind and pleasant",
+      "partOfSpeech": "adjective",
+      "level": "A2"
+    },
+    {
+      "word": "unfriendly",
+      "translation": "ไม่เป็นมิตร",
+      "definition": "Not kind or pleasant to others",
+      "partOfSpeech": "adjective",
+      "level": "A2"
+    },
+    {
+      "word": "honest",
+      "translation": "ซื่อสัตย์",
+      "definition": "Free of deceit and untruthfulness",
+      "partOfSpeech": "adjective",
+      "level": "A2"
+    },
+    {
+      "word": "dishonest",
+      "translation": "ไม่ซื่อสัตย์",
+      "definition": "Behaving in an untrustworthy way",
+      "partOfSpeech": "adjective",
+      "level": "A2"
+    },
+    {
+      "word": "patient",
+      "translation": "อดทน",
+      "definition": "Able to accept delay without becoming annoyed",
+      "partOfSpeech": "adjective",
+      "level": "A2"
+    },
+    {
+      "word": "impatient",
+      "translation": "ใจร้อน",
+      "definition": "Having or showing a tendency to be annoyed by delay",
+      "partOfSpeech": "adjective",
+      "level": "A2"
+    },
+    {
+      "word": "kind",
+      "translation": "ใจดี",
+      "definition": "Having a friendly, generous nature",
+      "partOfSpeech": "adjective",
+      "level": "A2"
+    },
+    {
+      "word": "cruel",
+      "translation": "โหดร้าย",
+      "definition": "Willfully causing pain to others",
+      "partOfSpeech": "adjective",
+      "level": "A2"
+    },
+    {
+      "word": "generous",
+      "translation": "ใจกว้าง",
+      "definition": "Showing readiness to give more than necessary",
+      "partOfSpeech": "adjective",
+      "level": "A2"
+    },
+    {
+      "word": "selfish",
+      "translation": "เห็นแก่ตัว",
+      "definition": "Lacking consideration for others",
+      "partOfSpeech": "adjective",
+      "level": "A2"
+    },
+    {
+      "word": "brave",
+      "translation": "กล้าหาญ",
+      "definition": "Ready to face danger or pain",
+      "partOfSpeech": "adjective",
+      "level": "A2"
+    },
+    {
+      "word": "coward",
+      "translation": "ขี้ขลาด",
+      "definition": "A person who lacks courage",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "smart",
+      "translation": "ฉลาด",
+      "definition": "Having intelligence or quick wits",
+      "partOfSpeech": "adjective",
+      "level": "A2"
+    },
+    {
+      "word": "stupid",
+      "translation": "โง่",
+      "definition": "Having a lack of intelligence",
+      "partOfSpeech": "adjective",
+      "level": "A2"
+    },
+    {
+      "word": "wise",
+      "translation": "ฉลาด",
+      "definition": "Having experience, knowledge, and good judgment",
+      "partOfSpeech": "adjective",
+      "level": "A2"
+    },
+    {
+      "word": "foolish",
+      "translation": "โง่เง่า",
+      "definition": "Lacking good sense or judgment",
+      "partOfSpeech": "adjective",
+      "level": "A2"
+    },
+    {
+      "word": "confident",
+      "translation": "มั่นใจ",
+      "definition": "Feeling certainty about the truth of something",
+      "partOfSpeech": "adjective",
+      "level": "A2"
+    },
+    {
+      "word": "shy",
+      "translation": "อาย",
+      "definition": "Nervous or timid in the company of others",
+      "partOfSpeech": "adjective",
+      "level": "A2"
+    },
+    {
+      "word": "proud",
+      "translation": "ภูมิใจ",
+      "definition": "Feeling satisfaction from one's achievements",
+      "partOfSpeech": "adjective",
+      "level": "A2"
+    },
+    {
+      "word": "ashamed",
+      "translation": "อับอาย",
+      "definition": "Feeling embarrassed or guilty",
+      "partOfSpeech": "adjective",
+      "level": "A2"
+    },
+    {
+      "word": "jealous",
+      "translation": "อิจฉา",
+      "definition": "Feeling resentment against someone",
+      "partOfSpeech": "adjective",
+      "level": "A2"
+    },
+    {
+      "word": "lonely",
+      "translation": "เหงา",
+      "definition": "Sad because one has no friends",
+      "partOfSpeech": "adjective",
+      "level": "A2"
+    },
+    {
+      "word": "comfortable",
+      "translation": "สบาย",
+      "definition": "Providing physical ease and relaxation",
+      "partOfSpeech": "adjective",
+      "level": "A2"
+    },
+    {
+      "word": "uncomfortable",
+      "translation": "ไม่สบาย",
+      "definition": "Causing or feeling slight pain",
+      "partOfSpeech": "adjective",
+      "level": "A2"
+    },
+    {
+      "word": "pleasant",
+      "translation": "น่าพอใจ",
+      "definition": "Giving a sense of happy satisfaction",
+      "partOfSpeech": "adjective",
+      "level": "A2"
+    },
+    {
+      "word": "unpleasant",
+      "translation": "ไม่น่าพอใจ",
+      "definition": "Causing discomfort or unhappiness",
+      "partOfSpeech": "adjective",
+      "level": "A2"
+    },
+    {
+      "word": "excellent",
+      "translation": "ยอดเยี่ยม",
+      "definition": "Extremely good; outstanding",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "terrible",
+      "translation": "แย่มาก",
+      "definition": "Extremely bad or serious",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "amazing",
+      "translation": "น่าทึ่ง",
+      "definition": "Causing great surprise or wonder",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "awful",
+      "translation": "น่ากลัว",
+      "definition": "Extremely bad or unpleasant",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "fantastic",
+      "translation": "วิเศษ",
+      "definition": "Extremely good; excellent",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "horrible",
+      "translation": "น่ากลัว",
+      "definition": "Causing horror or disgust",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "wonderful",
+      "translation": "ยอดเยี่ยม",
+      "definition": "Inspiring delight or admiration",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "brilliant",
+      "translation": "ยอดเยี่ยม",
+      "definition": "Exceptionally clever or talented",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "enormous",
+      "translation": "มหาศาล",
+      "definition": "Very large in size or quantity",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "tiny",
+      "translation": "เล็กจิ๋ว",
+      "definition": "Very small",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "huge",
+      "translation": "ใหญ่โต",
+      "definition": "Extremely large",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "massive",
+      "translation": "มหึมา",
+      "definition": "Large and heavy or solid",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "delicious",
+      "translation": "อร่อย",
+      "definition": "Having a pleasant taste",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "disgusting",
+      "translation": "น่าขยะแขยง",
+      "definition": "Causing revulsion or strong disapproval",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "fascinating",
+      "translation": "น่าหลงใหล",
+      "definition": "Extremely interesting",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "boring",
+      "translation": "น่าเบื่อ",
+      "definition": "Not interesting; tedious",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "exciting",
+      "translation": "น่าตื่นเต้น",
+      "definition": "Causing great enthusiasm and eagerness",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "relaxing",
+      "translation": "ผ่อนคลาย",
+      "definition": "Making one feel calm and less worried",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "exhausting",
+      "translation": "น่าเหนื่อย",
+      "definition": "Making one feel very tired",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "refreshing",
+      "translation": "สดชื่น",
+      "definition": "Serving to refresh or reinvigorate someone",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "annoying",
+      "translation": "น่ารำคาญ",
+      "definition": "Causing irritation or displeasure",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "disappointing",
+      "translation": "น่าผิดหวัง",
+      "definition": "Failing to fulfill expectations",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "satisfying",
+      "translation": "น่าพอใจ",
+      "definition": "Giving fulfillment or gratification",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "surprising",
+      "translation": "น่าแปลกใจ",
+      "definition": "Causing surprise; unexpected",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "shocking",
+      "translation": "ตกใจ",
+      "definition": "Causing indignation or disgust",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "embarrassing",
+      "translation": "น่าอาย",
+      "definition": "Causing feelings of awkwardness or shame",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "challenging",
+      "translation": "ท้าทาย",
+      "definition": "Testing one's abilities in a demanding way",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "demanding",
+      "translation": "เรียกร้อง",
+      "definition": "Requiring much skill or effort",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "rewarding",
+      "translation": "คุ้มค่า",
+      "definition": "Providing satisfaction; gratifying",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "frustrating",
+      "translation": "น่าหงุดหงิด",
+      "definition": "Causing annoyance or upset",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "impressive",
+      "translation": "น่าประทับใจ",
+      "definition": "Evoking admiration through size or skill",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "outstanding",
+      "translation": "โดดเด่น",
+      "definition": "Clearly noticeable; exceptionally good",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "remarkable",
+      "translation": "น่าทึ่ง",
+      "definition": "Worthy of attention; striking",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "extraordinary",
+      "translation": "พิเศษ",
+      "definition": "Very unusual or remarkable",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "ordinary",
+      "translation": "ธรรมดา",
+      "definition": "With no special features; normal",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "typical",
+      "translation": "ทั่วไป",
+      "definition": "Having the distinctive qualities of a type",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "unusual",
+      "translation": "ผิดปกติ",
+      "definition": "Not habitually occurring",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "common",
+      "translation": "ธรรมดา",
+      "definition": "Occurring frequently; widespread",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "rare",
+      "translation": "หายาก",
+      "definition": "Not occurring very often",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "frequent",
+      "translation": "บ่อย",
+      "definition": "Occurring often",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "occasional",
+      "translation": "เป็นครั้งคราว",
+      "definition": "Occurring sometimes but not regularly",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "regular",
+      "translation": "ปกติ",
+      "definition": "Arranged in a constant pattern",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "irregular",
+      "translation": "ไม่เป็นระเบียบ",
+      "definition": "Not even or balanced in shape",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "permanent",
+      "translation": "ถาวร",
+      "definition": "Lasting or intended to last indefinitely",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "temporary",
+      "translation": "ชั่วคราว",
+      "definition": "Lasting for only a limited period",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "professional",
+      "translation": "มืออาชีพ",
+      "definition": "Relating to or connected with a profession",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "amateur",
+      "translation": "มือสมัครเล่น",
+      "definition": "Engaging in a pursuit as a pastime",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "formal",
+      "translation": "เป็นทางการ",
+      "definition": "Done in accordance with rules of convention",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "informal",
+      "translation": "ไม่เป็นทางการ",
+      "definition": "Having a relaxed, friendly manner",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "public",
+      "translation": "สาธารณะ",
+      "definition": "Of or concerning the people as a whole",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "private",
+      "translation": "ส่วนตัว",
+      "definition": "Belonging to a particular person",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "personal",
+      "translation": "ส่วนบุคคล",
+      "definition": "Belonging to or affecting a particular person",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "social",
+      "translation": "สังคม",
+      "definition": "Relating to society or its organization",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "individual",
+      "translation": "บุคคล",
+      "definition": "Single; separate",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "collective",
+      "translation": "รวมหมู่",
+      "definition": "Done by people acting as a group",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "domestic",
+      "translation": "ในประเทศ",
+      "definition": "Relating to the running of a home",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "foreign",
+      "translation": "ต่างประเทศ",
+      "definition": "Of, from, or characteristic of another country",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "international",
+      "translation": "นานาชาติ",
+      "definition": "Existing between two or more countries",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "national",
+      "translation": "ชาติ",
+      "definition": "Relating to a nation as a whole",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "local",
+      "translation": "ท้องถิ่น",
+      "definition": "Belonging to a particular area",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "regional",
+      "translation": "ภูมิภาค",
+      "definition": "Relating to a particular region",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "global",
+      "translation": "โลก",
+      "definition": "Relating to the whole world",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "universal",
+      "translation": "สากล",
+      "definition": "Applicable to all cases",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "general",
+      "translation": "ทั่วไป",
+      "definition": "Affecting all or most people or things",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "detailed",
+      "translation": "ละเอียด",
+      "definition": "Having many details or facts",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "brief",
+      "translation": "สั้น",
+      "definition": "Of short duration",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "lengthy",
+      "translation": "ยาวนาน",
+      "definition": "Of considerable duration",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "immediate",
+      "translation": "ทันที",
+      "definition": "Occurring without delay",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "gradual",
+      "translation": "ค่อยเป็นค่อยไป",
+      "definition": "Taking place in stages over time",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "sudden",
+      "translation": "กะทันหัน",
+      "definition": "Occurring without warning",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "gradual",
+      "translation": "ค่อยเป็นค่อยไป",
+      "definition": "Taking place in stages over time",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "rapid",
+      "translation": "รวดเร็ว",
+      "definition": "Happening in a short time",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "steady",
+      "translation": "มั่นคง",
+      "definition": "Firmly fixed or not likely to move",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "stable",
+      "translation": "เสถียร",
+      "definition": "Not likely to change or fail",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "unstable",
+      "translation": "ไม่เสถียร",
+      "definition": "Likely to change; not firmly established",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "secure",
+      "translation": "ปลอดภัย",
+      "definition": "Fixed or fastened so as not to give way",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "insecure",
+      "translation": "ไม่ปลอดภัย",
+      "definition": "Not confident or assured",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "independent",
+      "translation": "อิสระ",
+      "definition": "Free from outside control",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "dependent",
+      "translation": "พึ่งพา",
+      "definition": "Contingent on or determined by",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "responsible",
+      "translation": "รับผิดชอบ",
+      "definition": "Having a duty to deal with something",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "irresponsible",
+      "translation": "ไม่รับผิดชอบ",
+      "definition": "Not showing a proper sense of responsibility",
+      "partOfSpeech": "adjective",
+      "level": "B1"
+    },
+    {
+      "word": "mature",
+      "translation": "โตเต็มที่",
+      "definition": "Fully developed physically",
+      "partOfSpeech": "adjective",
+      "level": "B2"
+    },
+    {
+      "word": "immature",
+      "translation": "ไม่เต็มที่",
+      "definition": "Not fully developed",
+      "partOfSpeech": "adjective",
+      "level": "B2"
+    },
+    {
+      "word": "sophisticated",
+      "translation": "ซับซ้อน",
+      "definition": "Having complex or refined qualities",
+      "partOfSpeech": "adjective",
+      "level": "B2"
+    },
+    {
+      "word": "naive",
+      "translation": "ไร้เดียงสา",
+      "definition": "Showing a lack of experience or wisdom",
+      "partOfSpeech": "adjective",
+      "level": "B2"
+    },
+    {
+      "word": "experienced",
+      "translation": "มีประสบการณ์",
+      "definition": "Having knowledge or skill in a particular area",
+      "partOfSpeech": "adjective",
+      "level": "B2"
+    },
+    {
+      "word": "inexperienced",
+      "translation": "ไม่มีประสบการณ์",
+      "definition": "Lacking experience",
+      "partOfSpeech": "adjective",
+      "level": "B2"
+    },
+    {
+      "word": "qualified",
+      "translation": "มีคุณสมบัติ",
+      "definition": "Officially recognized as able to perform a job",
+      "partOfSpeech": "adjective",
+      "level": "B2"
+    },
+    {
+      "word": "unqualified",
+      "translation": "ไม่มีคุณสมบัติ",
+      "definition": "Not having the necessary qualifications",
+      "partOfSpeech": "adjective",
+      "level": "B2"
+    },
+    {
+      "word": "skilled",
+      "translation": "มีทักษะ",
+      "definition": "Having or showing skill",
+      "partOfSpeech": "adjective",
+      "level": "B2"
+    },
+    {
+      "word": "unskilled",
+      "translation": "ไม่มีทักษะ",
+      "definition": "Not having or requiring special skill",
+      "partOfSpeech": "adjective",
+      "level": "B2"
+    },
+    {
+      "word": "talented",
+      "translation": "มีความสามารถ",
+      "definition": "Having a natural aptitude for something",
+      "partOfSpeech": "adjective",
+      "level": "B2"
+    },
+    {
+      "word": "gifted",
+      "translation": "มีพรสวรรค์",
+      "definition": "Having exceptional talent or natural ability",
+      "partOfSpeech": "adjective",
+      "level": "B2"
+    },
+    {
+      "word": "creative",
+      "translation": "สร้างสรรค์",
+      "definition": "Relating to or involving imagination",
+      "partOfSpeech": "adjective",
+      "level": "B2"
+    },
+    {
+      "word": "innovative",
+      "translation": "นวัตกรรม",
+      "definition": "Featuring new methods; advanced and original",
+      "partOfSpeech": "adjective",
+      "level": "B2"
+    },
+    {
+      "word": "original",
+      "translation": "ต้นฉบับ",
+      "definition": "Present or existing from the beginning",
+      "partOfSpeech": "adjective",
+      "level": "B2"
+    },
+    {
+      "word": "traditional",
+      "translation": "ดั้งเดิม",
+      "definition": "Existing in or as part of a tradition",
+      "partOfSpeech": "adjective",
+      "level": "B2"
+    },
+    {
+      "word": "modern",
+      "translation": "ทันสมัย",
+      "definition": "Relating to the present time",
+      "partOfSpeech": "adjective",
+      "level": "B2"
+    },
+    {
+      "word": "ancient",
+      "translation": "โบราณ",
+      "definition": "Belonging to the very distant past",
+      "partOfSpeech": "adjective",
+      "level": "B2"
+    },
+    {
+      "word": "contemporary",
+      "translation": "ร่วมสมัย",
+      "definition": "Belonging to or occurring in the present time",
+      "partOfSpeech": "adjective",
+      "level": "B2"
+    },
+    {
+      "word": "historical",
+      "translation": "ประวัติศาสตร์",
+      "definition": "Of or concerning history",
+      "partOfSpeech": "adjective",
+      "level": "B2"
+    },
+    {
+      "word": "cultural",
+      "translation": "วัฒนธรรม",
+      "definition": "Relating to culture",
+      "partOfSpeech": "adjective",
+      "level": "B2"
+    },
+    {
+      "word": "artistic",
+      "translation": "ศิลปะ",
+      "definition": "Having or revealing natural creative skill",
+      "partOfSpeech": "adjective",
+      "level": "B2"
+    },
+    {
+      "word": "scientific",
+      "translation": "วิทยาศาสตร์",
+      "definition": "Relating to or based on science",
+      "partOfSpeech": "adjective",
+      "level": "B2"
+    },
+    {
+      "word": "technical",
+      "translation": "เทคนิค",
+      "definition": "Relating to or involving special skills",
+      "partOfSpeech": "adjective",
+      "level": "B2"
+    },
+    {
+      "word": "practical",
+      "translation": "ปฏิบัติ",
+      "definition": "Of or concerned with actual use",
+      "partOfSpeech": "adjective",
+      "level": "B2"
+    },
+    {
+      "word": "theoretical",
+      "translation": "ทฤษฎี",
+      "definition": "Concerned with theory rather than practice",
+      "partOfSpeech": "adjective",
+      "level": "B2"
+    },
+    {
+      "word": "logical",
+      "translation": "ตรรกะ",
+      "definition": "Reasoning in accordance with logic",
+      "partOfSpeech": "adjective",
+      "level": "B2"
+    },
+    {
+      "word": "illogical",
+      "translation": "ไร้ตรรกะ",
+      "definition": "Lacking sense or clear reasoning",
+      "partOfSpeech": "adjective",
+      "level": "B2"
+    },
+    {
+      "word": "rational",
+      "translation": "มีเหตุผล",
+      "definition": "Based on reason or logic",
+      "partOfSpeech": "adjective",
+      "level": "B2"
+    },
+    {
+      "word": "irrational",
+      "translation": "ไร้เหตุผล",
+      "definition": "Not logical or reasonable",
+      "partOfSpeech": "adjective",
+      "level": "B2"
+    },
+    {
+      "word": "reasonable",
+      "translation": "สมเหตุสมผล",
+      "definition": "Having sound judgment; fair",
+      "partOfSpeech": "adjective",
+      "level": "B2"
+    },
+    {
+      "word": "unreasonable",
+      "translation": "ไม่สมเหตุสมผล",
+      "definition": "Not guided by reason",
+      "partOfSpeech": "adjective",
+      "level": "B2"
+    },
+    {
+      "word": "sensible",
+      "translation": "สมเหตุสมผล",
+      "definition": "Done according to wisdom or prudence",
+      "partOfSpeech": "adjective",
+      "level": "B2"
+    },
+    {
+      "word": "foolish",
+      "translation": "โง่เง่า",
+      "definition": "Lacking good sense or judgment",
+      "partOfSpeech": "adjective",
+      "level": "B2"
+    },
+    {
+      "word": "realistic",
+      "translation": "สมจริง",
+      "definition": "Having a sensible view of what can be achieved",
+      "partOfSpeech": "adjective",
+      "level": "B2"
+    },
+    {
+      "word": "unrealistic",
+      "translation": "ไม่สมจริง",
+      "definition": "Not showing a sensible understanding",
+      "partOfSpeech": "adjective",
+      "level": "B2"
+    },
+    {
+      "word": "optimistic",
+      "translation": "มองโลกในแง่ดี",
+      "definition": "Hopeful about the future",
+      "partOfSpeech": "adjective",
+      "level": "B2"
+    },
+    {
+      "word": "pessimistic",
+      "translation": "มองโลกในแง่ร้าย",
+      "definition": "Tending to see the worst aspect of things",
+      "partOfSpeech": "adjective",
+      "level": "B2"
+    },
+    {
+      "word": "positive",
+      "translation": "เชิงบวก",
+      "definition": "Constructive, optimistic, or confident",
+      "partOfSpeech": "adjective",
+      "level": "B2"
+    },
+    {
+      "word": "negative",
+      "translation": "เชิงลบ",
+      "definition": "Lacking positive features",
+      "partOfSpeech": "adjective",
+      "level": "B2"
+    },
+    {
+      "word": "active",
+      "translation": "ปราดเปรียว",
+      "definition": "Engaging in physically energetic pursuits",
+      "partOfSpeech": "adjective",
+      "level": "B2"
+    },
+    {
+      "word": "passive",
+      "translation": "เฉื่อย",
+      "definition": "Accepting without resistance",
+      "partOfSpeech": "adjective",
+      "level": "B2"
+    },
+    {
+      "word": "aggressive",
+      "translation": "ก้าวร้าว",
+      "definition": "Ready to attack or confront",
+      "partOfSpeech": "adjective",
+      "level": "B2"
+    },
+    {
+      "word": "defensive",
+      "translation": "ป้องกัน",
+      "definition": "Used or intended to defend",
+      "partOfSpeech": "adjective",
+      "level": "B2"
+    },
+    {
+      "word": "competitive",
+      "translation": "แข่งขัน",
+      "definition": "Having a strong desire to compete",
+      "partOfSpeech": "adjective",
+      "level": "B2"
+    },
+    {
+      "word": "cooperative",
+      "translation": "ร่วมมือ",
+      "definition": "Involving mutual assistance",
+      "partOfSpeech": "adjective",
+      "level": "B2"
+    },
+    {
+      "word": "supportive",
+      "translation": "สนับสนุน",
+      "definition": "Providing encouragement or emotional help",
+      "partOfSpeech": "adjective",
+      "level": "B2"
+    },
+    {
+      "word": "critical",
+      "translation": "วิจารณ์",
+      "definition": "Expressing disapproval",
+      "partOfSpeech": "adjective",
+      "level": "B2"
+    },
+    {
+      "word": "constructive",
+      "translation": "สร้างสรรค์",
+      "definition": "Serving a useful purpose",
+      "partOfSpeech": "adjective",
+      "level": "B2"
+    },
+    {
+      "word": "destructive",
+      "translation": "ทำลาย",
+      "definition": "Causing great damage",
+      "partOfSpeech": "adjective",
+      "level": "B2"
+    },
+    {
+      "word": "productive",
+      "translation": "มีผลผลิต",
+      "definition": "Achieving a significant amount of result",
+      "partOfSpeech": "adjective",
+      "level": "B2"
+    },
+    {
+      "word": "counterproductive",
+      "translation": "ขัดแย้งกับเป้าหมาย",
+      "definition": "Having the opposite of the desired effect",
+      "partOfSpeech": "adjective",
+      "level": "B2"
+    },
+    {
+      "word": "effective",
+      "translation": "มีประสิทธิผล",
+      "definition": "Successful in producing a desired result",
+      "partOfSpeech": "adjective",
+      "level": "B2"
+    },
+    {
+      "word": "ineffective",
+      "translation": "ไม่มีประสิทธิผล",
+      "definition": "Not producing any significant effect",
+      "partOfSpeech": "adjective",
+      "level": "B2"
+    },
+    {
+      "word": "efficient",
+      "translation": "มีประสิทธิภาพ",
+      "definition": "Working in a well-organized way",
+      "partOfSpeech": "adjective",
+      "level": "B2"
+    },
+    {
+      "word": "inefficient",
+      "translation": "ไม่มีประสิทธิภาพ",
+      "definition": "Not achieving maximum productivity",
+      "partOfSpeech": "adjective",
+      "level": "B2"
+    },
+    {
+      "word": "beneficial",
+      "translation": "เป็นประโยชน์",
+      "definition": "Resulting in good; favorable",
+      "partOfSpeech": "adjective",
+      "level": "C1"
+    },
+    {
+      "word": "detrimental",
+      "translation": "เป็นอันตราย",
+      "definition": "Tending to cause harm",
+      "partOfSpeech": "adjective",
+      "level": "C1"
+    },
+    {
+      "word": "advantageous",
+      "translation": "เป็นประโยชน์",
+      "definition": "Giving or involving advantage",
+      "partOfSpeech": "adjective",
+      "level": "C1"
+    },
+    {
+      "word": "disadvantageous",
+      "translation": "เป็นข้อเสีย",
+      "definition": "Involving disadvantage",
+      "partOfSpeech": "adjective",
+      "level": "C1"
+    },
+    {
+      "word": "favorable",
+      "translation": "เป็นที่โปรดปราน",
+      "definition": "Expressing approval or giving consent",
+      "partOfSpeech": "adjective",
+      "level": "C1"
+    },
+    {
+      "word": "unfavorable",
+      "translation": "ไม่เป็นที่โปรดปราน",
+      "definition": "Expressing disapproval or disagreement",
+      "partOfSpeech": "adjective",
+      "level": "C1"
+    },
+    {
+      "word": "appropriate",
+      "translation": "เหมาะสม",
+      "definition": "Suitable or proper in the circumstances",
+      "partOfSpeech": "adjective",
+      "level": "C1"
+    },
+    {
+      "word": "inappropriate",
+      "translation": "ไม่เหมาะสม",
+      "definition": "Not suitable or proper",
+      "partOfSpeech": "adjective",
+      "level": "C1"
+    },
+    {
+      "word": "adequate",
+      "translation": "เพียงพอ",
+      "definition": "Satisfactory in quality or quantity",
+      "partOfSpeech": "adjective",
+      "level": "C1"
+    },
+    {
+      "word": "inadequate",
+      "translation": "ไม่เพียงพอ",
+      "definition": "Lacking the quality needed for a role",
+      "partOfSpeech": "adjective",
+      "level": "C1"
+    },
+    {
+      "word": "sufficient",
+      "translation": "เพียงพอ",
+      "definition": "Enough; adequate",
+      "partOfSpeech": "adjective",
+      "level": "C1"
+    },
+    {
+      "word": "insufficient",
+      "translation": "ไม่เพียงพอ",
+      "definition": "Not enough; inadequate",
+      "partOfSpeech": "adjective",
+      "level": "C1"
+    },
+    {
+      "word": "excessive",
+      "translation": "มากเกินไป",
+      "definition": "More than is necessary or desirable",
+      "partOfSpeech": "adjective",
+      "level": "C1"
+    },
+    {
+      "word": "moderate",
+      "translation": "ปานกลาง",
+      "definition": "Average in amount, intensity, or degree",
+      "partOfSpeech": "adjective",
+      "level": "C1"
+    },
+    {
+      "word": "extreme",
+      "translation": "รุนแรง",
+      "definition": "Reaching a high or the highest degree",
+      "partOfSpeech": "adjective",
+      "level": "C1"
+    },
+    {
+      "word": "intense",
+      "translation": "เข้มข้น",
+      "definition": "Of extreme force or degree",
+      "partOfSpeech": "adjective",
+      "level": "C1"
+    },
+    {
+      "word": "mild",
+      "translation": "อ่อน",
+      "definition": "Not severe, serious, or harsh",
+      "partOfSpeech": "adjective",
+      "level": "C1"
+    },
+    {
+      "word": "severe",
+      "translation": "รุนแรง",
+      "definition": "Very great; intense",
+      "partOfSpeech": "adjective",
+      "level": "C1"
+    },
+    {
+      "word": "acute",
+      "translation": "รุนแรง",
+      "definition": "Present or experienced to a severe degree",
+      "partOfSpeech": "adjective",
+      "level": "C1"
+    },
+    {
+      "word": "chronic",
+      "translation": "เรื้อรัง",
+      "definition": "Persisting for a long time",
+      "partOfSpeech": "adjective",
+      "level": "C1"
+    },
+    {
+      "word": "urgent",
+      "translation": "เร่งด่วน",
+      "definition": "Requiring immediate action",
+      "partOfSpeech": "adjective",
+      "level": "C1"
+    },
+    {
+      "word": "crucial",
+      "translation": "สำคัญมาก",
+      "definition": "Of great importance",
+      "partOfSpeech": "adjective",
+      "level": "C1"
+    },
+    {
+      "word": "vital",
+      "translation": "สำคัญยิ่ง",
+      "definition": "Absolutely necessary",
+      "partOfSpeech": "adjective",
+      "level": "C1"
+    },
+    {
+      "word": "trivial",
+      "translation": "เล็กน้อย",
+      "definition": "Of little importance",
+      "partOfSpeech": "adjective",
+      "level": "C1"
+    },
+    {
+      "word": "significant",
+      "translation": "มีนัยสำคัญ",
+      "definition": "Sufficiently great to be worthy of attention",
+      "partOfSpeech": "adjective",
+      "level": "C1"
+    },
+    {
+      "word": "insignificant",
+      "translation": "ไม่มีนัยสำคัญ",
+      "definition": "Too small or unimportant to be worth consideration",
+      "partOfSpeech": "adjective",
+      "level": "C1"
+    },
+    {
+      "word": "relevant",
+      "translation": "เกี่ยวข้อง",
+      "definition": "Closely connected to the matter at hand",
+      "partOfSpeech": "adjective",
+      "level": "C1"
+    },
+    {
+      "word": "irrelevant",
+      "translation": "ไม่เกี่ยวข้อง",
+      "definition": "Not connected with or relevant to something",
+      "partOfSpeech": "adjective",
+      "level": "C1"
+    },
+    {
+      "word": "compatible",
+      "translation": "เข้ากันได้",
+      "definition": "Able to exist together without conflict",
+      "partOfSpeech": "adjective",
+      "level": "C1"
+    },
+    {
+      "word": "incompatible",
+      "translation": "เข้ากันไม่ได้",
+      "definition": "Not able to exist together",
+      "partOfSpeech": "adjective",
+      "level": "C1"
+    },
+    {
+      "word": "consistent",
+      "translation": "สม่ำเสมอ",
+      "definition": "Acting in the same way over time",
+      "partOfSpeech": "adjective",
+      "level": "C1"
+    },
+    {
+      "word": "inconsistent",
+      "translation": "ไม่สม่ำเสมอ",
+      "definition": "Not staying the same throughout",
+      "partOfSpeech": "adjective",
+      "level": "C1"
+    },
+    {
+      "word": "coherent",
+      "translation": "เชื่อมโยงกัน",
+      "definition": "Logical and consistent",
+      "partOfSpeech": "adjective",
+      "level": "C1"
+    },
+    {
+      "word": "incoherent",
+      "translation": "ไม่เชื่อมโยงกัน",
+      "definition": "Not logical or clearly expressed",
+      "partOfSpeech": "adjective",
+      "level": "C1"
+    },
+    {
+      "word": "comprehensive",
+      "translation": "ครอบคลุม",
+      "definition": "Complete and including everything necessary",
+      "partOfSpeech": "adjective",
+      "level": "C1"
+    },
+    {
+      "word": "partial",
+      "translation": "บางส่วน",
+      "definition": "Existing only in part; incomplete",
+      "partOfSpeech": "adjective",
+      "level": "C1"
+    },
+    {
+      "word": "complete",
+      "translation": "สมบูرณ์",
+      "definition": "Having all the necessary parts",
+      "partOfSpeech": "adjective",
+      "level": "C1"
+    },
+    {
+      "word": "incomplete",
+      "translation": "ไม่สมบูรณ์",
+      "definition": "Not having all the necessary parts",
+      "partOfSpeech": "adjective",
+      "level": "C1"
+    },
+    {
+      "word": "absolute",
+      "translation": "สมบูรณ์",
+      "definition": "Not qualified or diminished in any way",
+      "partOfSpeech": "adjective",
+      "level": "C1"
+    },
+    {
+      "word": "relative",
+      "translation": "สัมพัทธ์",
+      "definition": "Considered in relation to something else",
+      "partOfSpeech": "adjective",
+      "level": "C1"
+    },
+    {
+      "word": "objective",
+      "translation": "เป็นกลาง",
+      "definition": "Not influenced by personal feelings",
+      "partOfSpeech": "adjective",
+      "level": "C1"
+    },
+    {
+      "word": "subjective",
+      "translation": "ส่วนตัว",
+      "definition": "Based on personal feelings or opinions",
+      "partOfSpeech": "adjective",
+      "level": "C1"
+    },
+    {
+      "word": "concrete",
+      "translation": "เป็นรูปธรรม",
+      "definition": "Existing in a material form; real",
+      "partOfSpeech": "adjective",
+      "level": "C1"
+    },
+    {
+      "word": "abstract",
+      "translation": "เป็นนามธรรม",
+      "definition": "Existing in thought or as an idea",
+      "partOfSpeech": "adjective",
+      "level": "C1"
+    },
+    {
+      "word": "visible",
+      "translation": "มองเห็นได้",
+      "definition": "Able to be seen",
+      "partOfSpeech": "adjective",
+      "level": "C1"
+    },
+    {
+      "word": "invisible",
+      "translation": "มองไม่เห็น",
+      "definition": "Unable to be seen",
+      "partOfSpeech": "adjective",
+      "level": "C1"
+    },
+    {
+      "word": "transparent",
+      "translation": "โปร่งใส",
+      "definition": "Allowing light through so objects can be seen",
+      "partOfSpeech": "adjective",
+      "level": "C1"
+    },
+    {
+      "word": "opaque",
+      "translation": "ไม่โปร่งใส",
+      "definition": "Not able to be seen through",
+      "partOfSpeech": "adjective",
+      "level": "C1"
+    },
+    {
+      "word": "obvious",
+      "translation": "ชัดเจน",
+      "definition": "Easily perceived or understood",
+      "partOfSpeech": "adjective",
+      "level": "C1"
+    },
+    {
+      "word": "obscure",
+      "translation": "คลุมเครือ",
+      "definition": "Not discovered or known about",
+      "partOfSpeech": "adjective",
+      "level": "C1"
+    },
+    {
+      "word": "clear",
+      "translation": "ชัดเจน",
+      "definition": "Easy to perceive or understand",
+      "partOfSpeech": "adjective",
+      "level": "C1"
+    },
+    {
+      "word": "vague",
+      "translation": "คลุมเครือ",
+      "definition": "Of uncertain, indefinite, or unclear character",
+      "partOfSpeech": "adjective",
+      "level": "C1"
+    },
+    {
+      "word": "precise",
+      "translation": "แม่นยำ",
+      "definition": "Marked by exactness and accuracy",
+      "partOfSpeech": "adjective",
+      "level": "C1"
+    },
+    {
+      "word": "imprecise",
+      "translation": "ไม่แม่นยำ",
+      "definition": "Not exact or accurate",
+      "partOfSpeech": "adjective",
+      "level": "C1"
+    },
+    {
+      "word": "accurate",
+      "translation": "ถูกต้อง",
+      "definition": "Correct in all details",
+      "partOfSpeech": "adjective",
+      "level": "C1"
+    },
+    {
+      "word": "inaccurate",
+      "translation": "ไม่ถูกต้อง",
+      "definition": "Not correct or exact",
+      "partOfSpeech": "adjective",
+      "level": "C1"
+    },
+    {
+      "word": "authentic",
+      "translation": "แท้จริง",
+      "definition": "Of undisputed origin; genuine",
+      "partOfSpeech": "adjective",
+      "level": "C2"
+    },
+    {
+      "word": "artificial",
+      "translation": "เทียม",
+      "definition": "Made by humans rather than occurring naturally",
+      "partOfSpeech": "adjective",
+      "level": "C2"
+    },
+    {
+      "word": "genuine",
+      "translation": "แท้จริง",
+      "definition": "Truly what it is said to be; authentic",
+      "partOfSpeech": "adjective",
+      "level": "C2"
+    },
+    {
+      "word": "fake",
+      "translation": "ปลอม",
+      "definition": "Not genuine; counterfeit",
+      "partOfSpeech": "adjective",
+      "level": "C2"
+    },
+    {
+      "word": "legitimate",
+      "translation": "ถูกต้องตามกฎหมาย",
+      "definition": "Conforming to the law or rules",
+      "partOfSpeech": "adjective",
+      "level": "C2"
+    },
+    {
+      "word": "illegitimate",
+      "translation": "ไม่ถูกต้องตามกฎหมาย",
+      "definition": "Not authorized by law",
+      "partOfSpeech": "adjective",
+      "level": "C2"
+    },
+    {
+      "word": "valid",
+      "translation": "ใช้ได้",
+      "definition": "Having a sound basis in logic or fact",
+      "partOfSpeech": "adjective",
+      "level": "C2"
+    },
+    {
+      "word": "invalid",
+      "translation": "ใช้ไม่ได้",
+      "definition": "Not based on correct reasoning",
+      "partOfSpeech": "adjective",
+      "level": "C2"
+    },
+    {
+      "word": "credible",
+      "translation": "น่าเชื่อถือ",
+      "definition": "Able to be believed; convincing",
+      "partOfSpeech": "adjective",
+      "level": "C2"
+    },
+    {
+      "word": "incredible",
+      "translation": "ไม่น่าเชื่อ",
+      "definition": "Impossible to believe",
+      "partOfSpeech": "adjective",
+      "level": "C2"
+    },
+    {
+      "word": "plausible",
+      "translation": "น่าเชื่อถือ",
+      "definition": "Seeming reasonable or probable",
+      "partOfSpeech": "adjective",
+      "level": "C2"
+    },
+    {
+      "word": "implausible",
+      "translation": "ไม่น่าเชื่อถือ",
+      "definition": "Not seeming reasonable or probable",
+      "partOfSpeech": "adjective",
+      "level": "C2"
+    },
+    {
+      "word": "feasible",
+      "translation": "เป็นไปได้",
+      "definition": "Possible to do easily or conveniently",
+      "partOfSpeech": "adjective",
+      "level": "C2"
+    },
+    {
+      "word": "unfeasible",
+      "translation": "เป็นไปไม่ได้",
+      "definition": "Not possible to do easily",
+      "partOfSpeech": "adjective",
+      "level": "C2"
+    },
+    {
+      "word": "viable",
+      "translation": "เป็นไปได้",
+      "definition": "Capable of working successfully",
+      "partOfSpeech": "adjective",
+      "level": "C2"
+    },
+    {
+      "word": "unviable",
+      "translation": "เป็นไปไม่ได้",
+      "definition": "Not capable of working successfully",
+      "partOfSpeech": "adjective",
+      "level": "C2"
+    },
+    {
+      "word": "sustainable",
+      "translation": "ยั่งยืน",
+      "definition": "Able to be maintained at a certain level",
+      "partOfSpeech": "adjective",
+      "level": "C2"
+    },
+    {
+      "word": "unsustainable",
+      "translation": "ไม่ยั่งยืน",
+      "definition": "Not able to be maintained at current level",
+      "partOfSpeech": "adjective",
+      "level": "C2"
+    },
+    {
+      "word": "renewable",
+      "translation": "ทดแทนได้",
+      "definition": "Not depleted when used",
+      "partOfSpeech": "adjective",
+      "level": "C2"
+    },
+    {
+      "word": "nonrenewable",
+      "translation": "ทดแทนไม่ได้",
+      "definition": "Not replaceable by natural processes",
+      "partOfSpeech": "adjective",
+      "level": "C2"
+    },
+    {
+      "word": "disposable",
+      "translation": "ใช้แล้วทิ้ง",
+      "definition": "Intended to be used once then thrown away",
+      "partOfSpeech": "adjective",
+      "level": "C2"
+    },
+    {
+      "word": "reusable",
+      "translation": "ใช้ซ้ำได้",
+      "definition": "Able to be used again",
+      "partOfSpeech": "adjective",
+      "level": "C2"
+    },
+    {
+      "word": "recyclable",
+      "translation": "รีไซเคิลได้",
+      "definition": "Able to be processed into new products",
+      "partOfSpeech": "adjective",
+      "level": "C2"
+    },
+    {
+      "word": "biodegradable",
+      "translation": "ย่อยสลายได้",
+      "definition": "Able to decay naturally",
+      "partOfSpeech": "adjective",
+      "level": "C2"
+    },
+    {
+      "word": "toxic",
+      "translation": "เป็นพิษ",
+      "definition": "Poisonous",
+      "partOfSpeech": "adjective",
+      "level": "C2"
+    },
+    {
+      "word": "nontoxic",
+      "translation": "ไม่เป็นพิษ",
+      "definition": "Not poisonous or toxic",
+      "partOfSpeech": "adjective",
+      "level": "C2"
+    },
+    {
+      "word": "hazardous",
+      "translation": "อันตราย",
+      "definition": "Risky; dangerous",
+      "partOfSpeech": "adjective",
+      "level": "C2"
+    },
+    {
+      "word": "harmless",
+      "translation": "ไม่เป็นอันตราย",
+      "definition": "Not able or likely to cause harm",
+      "partOfSpeech": "adjective",
+      "level": "C2"
+    },
+    {
+      "word": "vulnerable",
+      "translation": "เปราะบาง",
+      "definition": "Susceptible to physical or emotional harm",
+      "partOfSpeech": "adjective",
+      "level": "C2"
+    },
+    {
+      "word": "invulnerable",
+      "translation": "ไม่เปราะบาง",
+      "definition": "Impossible to harm or damage",
+      "partOfSpeech": "adjective",
+      "level": "C2"
+    },
+    {
+      "word": "fragile",
+      "translation": "เปราะ",
+      "definition": "Easily broken or damaged",
+      "partOfSpeech": "adjective",
+      "level": "C2"
+    },
+    {
+      "word": "durable",
+      "translation": "คงทน",
+      "definition": "Able to withstand wear and damage",
+      "partOfSpeech": "adjective",
+      "level": "C2"
+    },
+    {
+      "word": "robust",
+      "translation": "แข็งแรง",
+      "definition": "Strong and healthy; vigorous",
+      "partOfSpeech": "adjective",
+      "level": "C2"
+    },
+    {
+      "word": "delicate",
+      "translation": "ละเอียดอ่อน",
+      "definition": "Very fine in texture or structure",
+      "partOfSpeech": "adjective",
+      "level": "C2"
+    },
+    {
+      "word": "intricate",
+      "translation": "ซับซ้อน",
+      "definition": "Very complicated or detailed",
+      "partOfSpeech": "adjective",
+      "level": "C2"
+    },
+    {
+      "word": "simplistic",
+      "translation": "ง่ายเกินไป",
+      "definition": "Treating complex issues in an overly simple way",
+      "partOfSpeech": "adjective",
+      "level": "C2"
+    },
+    {
+      "word": "elaborate",
+      "translation": "ละเอียดซับซ้อน",
+      "definition": "Involving many carefully arranged parts",
+      "partOfSpeech": "adjective",
+      "level": "C2"
+    },
+    {
+      "word": "rudimentary",
+      "translation": "พื้นฐาน",
+      "definition": "Involving basic principles",
+      "partOfSpeech": "adjective",
+      "level": "C2"
+    },
+    {
+      "word": "elementary",
+      "translation": "เบื้องต้น",
+      "definition": "Relating to the most basic aspects",
+      "partOfSpeech": "adjective",
+      "level": "C2"
+    },
+    {
+      "word": "advanced",
+      "translation": "ก้าวหน้า",
+      "definition": "Far on in progress or development",
+      "partOfSpeech": "adjective",
+      "level": "C2"
+    },
+    {
+      "word": "primitive",
+      "translation": "ดั้งเดิม",
+      "definition": "Relating to an early stage of development",
+      "partOfSpeech": "adjective",
+      "level": "C2"
+    },
+    {
+      "word": "civilized",
+      "translation": "อารย",
+      "definition": "At an advanced stage of social development",
+      "partOfSpeech": "adjective",
+      "level": "C2"
+    },
+    {
+      "word": "barbaric",
+      "translation": "ป่าเถื่อน",
+      "definition": "Extremely brutal or cruel",
+      "partOfSpeech": "adjective",
+      "level": "C2"
+    },
+    {
+      "word": "savage",
+      "translation": "ป่าเถื่อน",
+      "definition": "Fierce, violent, and uncontrolled",
+      "partOfSpeech": "adjective",
+      "level": "C2"
+    },
+    {
+      "word": "civilized",
+      "translation": "อารย",
+      "definition": "Polite and well-mannered",
+      "partOfSpeech": "adjective",
+      "level": "C2"
+    },
+    {
+      "word": "refined",
+      "translation": "งดงาม",
+      "definition": "Elegant and cultured in appearance",
+      "partOfSpeech": "adjective",
+      "level": "C2"
+    },
+    {
+      "word": "crude",
+      "translation": "หยาบ",
+      "definition": "In a natural state; not processed",
+      "partOfSpeech": "adjective",
+      "level": "C2"
+    },
+    {
+      "word": "polished",
+      "translation": "เรียบร้อย",
+      "definition": "Refined, sophisticated, or elegant",
+      "partOfSpeech": "adjective",
+      "level": "C2"
+    },
+    {
+      "word": "rough",
+      "translation": "หยาบ",
+      "definition": "Having an uneven or irregular surface",
+      "partOfSpeech": "adjective",
+      "level": "C2"
+    },
+    {
+      "word": "smooth",
+      "translation": "เรียบ",
+      "definition": "Having an even surface; not rough",
+      "partOfSpeech": "adjective",
+      "level": "C2"
     }
   ]
 
