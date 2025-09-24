@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="wtw.png" width="200" height="200">
+  <img src="img\wtw.png" width="200" height="200">
   <h3 align="center">What's The Word</h3>
   <p align="center"><i>🍎 Practice your knowledge of English vocabulary.</i></p>
   <div align="center">    
@@ -10,6 +10,7 @@
 </div>
 
 ## About This Project
+
 ![GitHub repo size](https://img.shields.io/github/repo-size/AZDEV2006/whatthisword?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/AZDEV2006/whatthisword?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/AZDEV2006/whatthisword?style=for-the-badge)

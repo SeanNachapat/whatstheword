@@ -4,6 +4,7 @@ import { useState, useRef, useEffect } from 'react';
 import Allwords from './word';
 import ScoreBoard from './components/Scoreboard';
 import Progress from './components/Progress';
+import { HiOutlineBars3 } from "react-icons/hi2";
 
 const ButtonComponents = ({
       text = "",
@@ -60,6 +61,7 @@ const App = () => {
             })
             setWordInput(Array(newWord.length).fill(""))
             setIsCorrect(false);
+            setTryWord(0);
             inputRef.current = []
       }
 
@@ -152,8 +154,10 @@ const App = () => {
             if (user) {
                   if (isCorrect) {
                         user.correct = (user.correct || 0) + 1;
+                        user.streak = (user.streak || 0) + 1;
                   } else {
                         user.wrong = (user.wrong || 0) + 1;
+                        user.streak = 0;
                   }
             } else {
                   const enteredName = window.prompt("Name rai i nong ?");
@@ -162,6 +166,7 @@ const App = () => {
                               name: enteredName,
                               correct: isCorrect ? 1 : 0,
                               wrong: isCorrect ? 0 : 1,
+                              streak: isCorrect ? 1 : 0,
                         };
                         users.push(user);
                         localStorage.setItem("name", enteredName);
@@ -226,6 +231,14 @@ const App = () => {
                                     ตัว
                               </div>
                         </div>
+                        <div className="flex items-center gap-3 text-lg text-black/50">
+                              <div className="">
+                                    คำอธิบายภาษาอังกฤษ :
+                              </div>
+                              <div className=" underline italic font-light">
+                                    {word.definition}
+                              </div>
+                        </div>
 
                         <div className="flex gap-2 items-center flex-wrap justify-center">
                               <ButtonComponents onClick={() => RandomWord()} text="สุ่มคำศัพท์" />
@@ -235,14 +248,14 @@ const App = () => {
                               }
                         </div>
 
-                        <div className="flex items-center">
+                        {/* <div className="flex items-center">
                               <div className="text-sm">
                                     คำแนะนำ :
                               </div>
                               <div className="text-md">
                                     ทายให้ถูกนะแจ๊ะ
                               </div>
-                        </div>
+                        </div> */}
                   </div>
             </>
       )

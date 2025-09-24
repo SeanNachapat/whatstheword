@@ -1,9 +1,12 @@
 'use client'
 import { useEffect, useState } from 'react'
+import { FaCheck } from "react-icons/fa";
+import { ImCross } from "react-icons/im";
+import { MdLocalFireDepartment } from "react-icons/md";
 
-const RankingCard = ({ rank = 0, name = "", correct = 0, wrong = 0 }) => {
+const RankingCard = ({ rank = 0, name = "", correct = 0, wrong = 0 , streak = 0}) => {
       return (
-            <div className="grid grid-cols-3 p-2 border border-black items-center">
+            <div className="grid grid-cols-4 p-2 border border-black items-center">
                   <div className="text-lg font-light">
                         #{rank} {name}
                   </div>
@@ -12,6 +15,9 @@ const RankingCard = ({ rank = 0, name = "", correct = 0, wrong = 0 }) => {
                   </div>
                   <div className="text-lg font-light text-red-700 text-center">
                         {wrong}
+                  </div>
+                  <div className="text-lg font-light text-orange-700 text-center">
+                        {streak}
                   </div>
             </div>
       )
@@ -36,12 +42,19 @@ const ScoreBoard = () => {
       }, [])
 
       return (
-            <div className="absolute top-0 right-0 w-96 min-h-96 bg-white p-6 m-6 text-4xl">
+            <div className="absolute top-0 right-0 min-h-96 bg-white p-6 m-6 text-4xl">
 
-                  <div className="grid grid-cols-3 p-2 items-center">
+                  <div className="grid grid-cols-4 p-2 items-center">
                         <div className="text-lg font-light">Name</div>
-                        <div className="text-lg font-light text-center">Correct</div>
-                        <div className="text-lg font-light text-center">Wrong</div>
+                        <div className="flex justify-center items-center">
+                              <FaCheck className='text-green-600 text-2xl'/>
+                        </div>
+                        <div className="flex justify-center items-center">
+                              <ImCross className='text-red-600 text-xl'/>
+                        </div>
+                        <div className="flex justify-center items-center">
+                              <MdLocalFireDepartment className='text-orange-600 text-3xl'/>
+                        </div>
                   </div>
                   <hr className="w-full border-black border-1" />
 
@@ -54,6 +67,7 @@ const ScoreBoard = () => {
                                           rank={idx + 1}
                                           correct={item.correct}
                                           wrong={item.wrong}
+                                          streak={item.streak}
                                     />
                               ))
                               : <div className="text-lg font-light text-gray-500 p-2">No users yet</div>}
