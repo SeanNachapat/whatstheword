@@ -176,11 +176,32 @@ const App = () => {
             localStorage.setItem("users", JSON.stringify(users));
       };
 
+      function countVocabularyByLevel(data) {
+            const counts = { A1: 0, A2: 0, B1: 0, B2: 0, C1: 0, C2: 0 };
+            
+            Allwords.forEach(word => {
+                  if (counts.hasOwnProperty(word.level)) {
+                  counts[word.level]++;
+                  }
+            });
+            
+            return counts;
+      }
+
+      // Get counts
+      const levelCounts = countVocabularyByLevel(Allwords);
+      const totalWords = Object.values(levelCounts).reduce((sum, count) => sum + count, 0);
+
+
 
       return (
             <>
                   {/* <Progress timer={0} /> */}
-                  <ScoreBoard />
+                  {/* <button
+                  className='text-2xl text-black absolute flex top-0 right-0 p-2 m-5 outline outline-1 rounded-lg hover:scale-105 transition-all'>
+                        <HiOutlineBars3 />
+                  </button> */}
+                  <ScoreBoard/>
                   <div className="w-screen h-screen flex justify-center items-center flex-col gap-8">
                         <div className="text-2xl md:text-5xl text-black/70 font-bold">
                               ช่วยทายหน่อยคำนี้แปลว่าอะไร ?
@@ -247,15 +268,22 @@ const App = () => {
                                     ((tryWord >= 3) ? <ButtonComponents onClick={() => SeeAnswer()} text="เฉลย" /> : null)
                               }
                         </div>
-
-                        {/* <div className="flex items-center">
-                              <div className="text-sm">
-                                    คำแนะนำ :
-                              </div>
-                              <div className="text-md">
-                                    ทายให้ถูกนะแจ๊ะ
-                              </div>
-                        </div> */}
+                        {/* <table className="border-collapse border border-black/50 text-sm">
+                              <thead>
+                                    <tr>
+                                          <th className='border border-black/50 p-1'>A1-A2</th>
+                                          <th className='border border-black/50 p-1'>B1-B2</th>
+                                          <th className='border border-black/50 p-1'>C1-C2</th>
+                                    </tr>
+                              </thead>
+                              <tbody>
+                                    <tr>
+                                          <th className='border border-black/50 p-1'>{levelCounts.A1+levelCounts.A2}</th>
+                                          <th className='border border-black/50 p-1'>{levelCounts.B1+levelCounts.B2}</th>
+                                          <th className='border border-black/50 p-1'>{levelCounts.C1+levelCounts.C2}</th>
+                                    </tr>
+                              </tbody>
+                        </table> */}
                   </div>
             </>
       )
