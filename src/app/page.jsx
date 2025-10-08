@@ -268,22 +268,33 @@ const App = () => {
                                     ((tryWord >= 3) ? <ButtonComponents onClick={() => SeeAnswer()} text="เฉลย" /> : null)
                               }
                         </div>
-                        {/* <table className="border-collapse border border-black/50 text-sm">
-                              <thead>
-                                    <tr>
-                                          <th className='border border-black/50 p-1'>A1-A2</th>
-                                          <th className='border border-black/50 p-1'>B1-B2</th>
-                                          <th className='border border-black/50 p-1'>C1-C2</th>
-                                    </tr>
-                              </thead>
-                              <tbody>
-                                    <tr>
-                                          <th className='border border-black/50 p-1'>{levelCounts.A1+levelCounts.A2}</th>
-                                          <th className='border border-black/50 p-1'>{levelCounts.B1+levelCounts.B2}</th>
-                                          <th className='border border-black/50 p-1'>{levelCounts.C1+levelCounts.C2}</th>
-                                    </tr>
-                              </tbody>
-                        </table> */}
+                        <div className="flex gap-5 text-sm text-gray-400">
+                              <div className="flex gap-2"> 
+                                    <div className="">
+                                          A1 - A2 :
+                                    </div>
+                                    <div className=" underline italic font-light">
+                                          {levelCounts.A1 + levelCounts.A2}
+                                    </div>
+                              </div>
+                              <div className="flex gap-2"> 
+                                    <div className="">
+                                          B1 - B2 :
+                                    </div>
+                                    <div className=" underline italic font-light">
+                                          {levelCounts.B1 + levelCounts.B2}
+                                    </div>
+                              </div>
+                              <div className="flex gap-2"> 
+                                    <div className="">
+                                          C1 - C2 :
+                                    </div>
+                                    <div className=" underline italic font-light">
+                                          {levelCounts.C1 + levelCounts.C2}
+                                    </div>
+                              </div>
+                              
+                        </div>
                   </div>
             </>
       )
