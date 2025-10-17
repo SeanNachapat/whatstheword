@@ -5,6 +5,7 @@ import Allwords from './word';
 import ScoreBoard from './components/Scoreboard';
 import Progress from './components/Progress';
 import { HiOutlineBars3 } from "react-icons/hi2";
+import Footer from './components/Footer';
 
 const ButtonComponents = ({
       text = "",
@@ -201,7 +202,7 @@ const App = () => {
                   className='text-2xl text-black absolute flex top-0 right-0 p-2 m-5 outline outline-1 rounded-lg hover:scale-105 transition-all'>
                         <HiOutlineBars3 />
                   </button> */}
-                  <ScoreBoard/>
+                  <div className='absolute p-3 m-3'><ScoreBoard/></div>
                   <div className="w-screen h-screen flex justify-center items-center flex-col gap-8">
                         <div className="text-2xl md:text-5xl text-black/70 font-bold">
                               ช่วยทายหน่อยคำนี้แปลว่าอะไร ?
@@ -296,6 +297,7 @@ const App = () => {
                               
                         </div>
                   </div>
+                  <Footer />
             </>
       )
 }
