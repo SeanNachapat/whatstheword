@@ -42,7 +42,7 @@ const ScoreBoard = () => {
       }, [])
 
       return (
-            <div className="absolute top-0 right-0 min-h-96 bg-white p-6 m-6 text-4xl">
+            <div className="top-0 right-0 min-h-96 bg-white p-3 m-3 text-4xl">
 
                   <div className="grid grid-cols-4 p-2 items-center">
                         <div className="text-lg font-light">Name</div>

@@ -4940,6 +4940,2491 @@ const Allwords = [
       "definition": "Having an even surface; not rough",
       "partOfSpeech": "adjective",
       "level": "C2"
+    },
+    {
+      "word": "river",
+      "translation": "แม่น้ำ",
+      "definition": "A large natural stream of water flowing in a channel",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "mountain",
+      "translation": "ภูเขา",
+      "definition": "A large natural elevation of the earth's surface",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "ocean",
+      "translation": "มหาสมุทร",
+      "definition": "A very large expanse of sea",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "forest",
+      "translation": "ป่า",
+      "definition": "A large area covered chiefly with trees",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "desert",
+      "translation": "ทะเลทราย",
+      "definition": "A barren area of landscape with little precipitation",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "lake",
+      "translation": "ทะเลสาบ",
+      "definition": "A large body of water surrounded by land",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "beach",
+      "translation": "ชายหาด",
+      "definition": "A pebbly or sandy shore by the ocean",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "island",
+      "translation": "เกาะ",
+      "definition": "A piece of land surrounded by water",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "bridge",
+      "translation": "สะพาน",
+      "definition": "A structure carrying a road over a river or obstacle",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "road",
+      "translation": "ถนน",
+      "definition": "A wide way leading from one place to another",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "street",
+      "translation": "ถนน",
+      "definition": "A public road in a city or town",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "park",
+      "translation": "สวนสาธารณะ",
+      "definition": "A large public garden used for recreation",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "garden",
+      "translation": "สวน",
+      "definition": "A piece of ground for growing plants",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "flower",
+      "translation": "ดอกไม้",
+      "definition": "The seed-bearing part of a plant",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "grass",
+      "translation": "หญ้า",
+      "definition": "Vegetation consisting of short plants",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "leaf",
+      "translation": "ใบไม้",
+      "definition": "A flattened structure of a plant",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "branch",
+      "translation": "กิ่ง",
+      "definition": "A part of a tree growing from the trunk",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "root",
+      "translation": "ราก",
+      "definition": "The part of a plant that absorbs water and nutrients",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "seed",
+      "translation": "เมล็ด",
+      "definition": "A plant embryo capable of developing into another plant",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "fruit",
+      "translation": "ผลไม้",
+      "definition": "The sweet product of a tree or plant",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "apple",
+      "translation": "แอปเปิล",
+      "definition": "A round fruit with red or green skin",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "banana",
+      "translation": "กล้วย",
+      "definition": "A long curved yellow fruit",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "orange",
+      "translation": "ส้ม",
+      "definition": "A round citrus fruit with orange skin",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "grape",
+      "translation": "องุ่น",
+      "definition": "A small round fruit growing in clusters",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "strawberry",
+      "translation": "สตรอว์เบอร์รี่",
+      "definition": "A soft red fruit with seeds on the outside",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "meat",
+      "translation": "เนื้อ",
+      "definition": "The flesh of an animal used as food",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "fish",
+      "translation": "ปลา",
+      "definition": "A cold-blooded vertebrate animal that lives in water",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "chicken",
+      "translation": "ไก่",
+      "definition": "A domestic fowl kept for eggs or meat",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "beef",
+      "translation": "เนื้อวัว",
+      "definition": "Meat from a cow",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "pork",
+      "translation": "เนื้อหมู",
+      "definition": "Meat from a pig",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "bread",
+      "translation": "ขนมปัง",
+      "definition": "Food made of flour, water, and yeast",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "rice",
+      "translation": "ข้าว",
+      "definition": "The seed of a grass used as food",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "soup",
+      "translation": "ซุป",
+      "definition": "A liquid dish made by boiling ingredients",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "salad",
+      "translation": "สลัด",
+      "definition": "A dish of mixed vegetables",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "egg",
+      "translation": "ไข่",
+      "definition": "An oval object laid by birds",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "milk",
+      "translation": "นม",
+      "definition": "A white liquid produced by mammals",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "cheese",
+      "translation": "ชีส",
+      "definition": "A food made from pressed milk curds",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "butter",
+      "translation": "เนย",
+      "definition": "A pale yellow edible fatty substance",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "sugar",
+      "translation": "น้ำตาล",
+      "definition": "A sweet crystalline substance",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "salt",
+      "translation": "เกลือ",
+      "definition": "A white crystalline substance used for seasoning",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "tea",
+      "translation": "ชา",
+      "definition": "A drink made by infusing dried leaves",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "coffee",
+      "translation": "กาแฟ",
+      "definition": "A drink made from roasted coffee beans",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "juice",
+      "translation": "น้ำผลไม้",
+      "definition": "A drink made from fruit or vegetables",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "wine",
+      "translation": "ไวน์",
+      "definition": "An alcoholic drink made from fermented grapes",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "beer",
+      "translation": "เบียร์",
+      "definition": "An alcoholic drink made from grain",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "glass",
+      "translation": "แก้ว",
+      "definition": "A hard transparent substance or drinking container",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "cup",
+      "translation": "ถ้วย",
+      "definition": "A small bowl-shaped container for drinking",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "bowl",
+      "translation": "ชาม",
+      "definition": "A round deep dish used for food",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "plate",
+      "translation": "จาน",
+      "definition": "A flat dish from which food is eaten",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "spoon",
+      "translation": "ช้อน",
+      "definition": "An implement with a handle and bowl for eating",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "fork",
+      "translation": "ส้อม",
+      "definition": "An implement with prongs for eating",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "knife",
+      "translation": "มีด",
+      "definition": "An instrument with a sharp blade for cutting",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "shirt",
+      "translation": "เสื้อเชิ้ต",
+      "definition": "A garment for the upper body",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "pants",
+      "translation": "กางเกง",
+      "definition": "A garment covering the legs",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "dress",
+      "translation": "ชุดเดรส",
+      "definition": "A garment consisting of a skirt with a bodice",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "skirt",
+      "translation": "กระโปรง",
+      "definition": "A garment hanging from the waist",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "coat",
+      "translation": "เสื้อโค้ท",
+      "definition": "An outer garment with sleeves",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "jacket",
+      "translation": "เสื้อแจ็คเก็ต",
+      "definition": "A short coat",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "hat",
+      "translation": "หมวก",
+      "definition": "A covering for the head",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "shoes",
+      "translation": "รองเท้า",
+      "definition": "A covering for the foot",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "socks",
+      "translation": "ถุงเท้า",
+      "definition": "A garment for the foot and lower leg",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "gloves",
+      "translation": "ถุงมือ",
+      "definition": "A covering for the hand",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "watch",
+      "translation": "นาฬิกา",
+      "definition": "A timepiece worn on the wrist",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "ring",
+      "translation": "แหวน",
+      "definition": "A circular band worn on the finger",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "necklace",
+      "translation": "สร้อยคอ",
+      "definition": "A piece of jewelry worn around the neck",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "bag",
+      "translation": "กระเป๋า",
+      "definition": "A container for carrying things",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "wallet",
+      "translation": "กระเป๋าเงิน",
+      "definition": "A pocket-sized folding case for money",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "key",
+      "translation": "กุนแจ",
+      "definition": "A device for opening a lock",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "pen",
+      "translation": "ปากกา",
+      "definition": "An instrument for writing with ink",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "pencil",
+      "translation": "ดินสอ",
+      "definition": "An instrument for writing or drawing",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "paper",
+      "translation": "กระดาษ",
+      "definition": "A thin sheet made from wood pulp",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "envelope",
+      "translation": "ซองจดหมาย",
+      "definition": "A flat paper container for letters",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "stamp",
+      "translation": "แสตมป์",
+      "definition": "A small piece of paper for mailing",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "letter",
+      "translation": "จดหมาย",
+      "definition": "A written message sent to someone",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "postcard",
+      "translation": "ไปรษณียบัตร",
+      "definition": "A card for sending messages by post",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "package",
+      "translation": "พัสดุ",
+      "definition": "An object wrapped for mailing",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "gift",
+      "translation": "ของขวัญ",
+      "definition": "Something given to someone",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "present",
+      "translation": "ของขวัญ",
+      "definition": "A thing given as a gift",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "party",
+      "translation": "งานปาร์ตี้",
+      "definition": "A social gathering for celebration",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "wedding",
+      "translation": "งานแต่งงาน",
+      "definition": "A marriage ceremony",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "funeral",
+      "translation": "งานศพ",
+      "definition": "A ceremony honoring a dead person",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "concert",
+      "translation": "คอนเสิร์ต",
+      "definition": "A musical performance",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "movie",
+      "translation": "หนัง",
+      "definition": "A story recorded on film",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "cinema",
+      "translation": "โรงภาพยนตร์",
+      "definition": "A theater where movies are shown",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "sport",
+      "translation": "กีฬา",
+      "definition": "A physical activity with rules",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "football",
+      "translation": "ฟุตบอล",
+      "definition": "A game played with a round ball",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "basketball",
+      "translation": "บาสเกตบอล",
+      "definition": "A game played with a ball and hoops",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "tennis",
+      "translation": "เทนนิส",
+      "definition": "A game played with rackets and a ball",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "swimming",
+      "translation": "การว่ายน้ำ",
+      "definition": "The activity of moving through water",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "running",
+      "translation": "การวิ่ง",
+      "definition": "The activity of moving at high speed",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "dancing",
+      "translation": "การเต้นรำ",
+      "definition": "Moving rhythmically to music",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "singing",
+      "translation": "การร้องเพลง",
+      "definition": "Making musical sounds with the voice",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "painting",
+      "translation": "การวาดภาพ",
+      "definition": "The action of applying paint to a surface",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "drawing",
+      "translation": "การวาด",
+      "definition": "Making marks on a surface",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "writing",
+      "translation": "การเขียน",
+      "definition": "The activity of creating text",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "reading",
+      "translation": "การอ่าน",
+      "definition": "The action of looking at and understanding text",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "cooking",
+      "translation": "การทำอาหาร",
+      "definition": "The practice of preparing food",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "cleaning",
+      "translation": "การทำความสะอาด",
+      "definition": "The action of making something clean",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "washing",
+      "translation": "การซัก",
+      "definition": "The action of cleaning with water",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "driving",
+      "translation": "การขับรถ",
+      "definition": "Operating a vehicle",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "parking",
+      "translation": "การจอดรถ",
+      "definition": "The action of stopping and leaving a vehicle",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "traffic",
+      "translation": "การจราจร",
+      "definition": "Vehicles moving on roads",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "accident",
+      "translation": "อุบัติเหตุ",
+      "definition": "An unfortunate incident that happens unexpectedly",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "injury",
+      "translation": "การบาดเจ็บ",
+      "definition": "Damage to the body",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "disease",
+      "translation": "โรค",
+      "definition": "A disorder of structure or function in the body",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "treatment",
+      "translation": "การรักษา",
+      "definition": "Medical care for illness or injury",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "medicine",
+      "translation": "ยา",
+      "definition": "A drug used to treat illness",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "pill",
+      "translation": "ยาเม็ด",
+      "definition": "A small round piece of medicine",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "vitamin",
+      "translation": "วิตามิน",
+      "definition": "A substance essential for normal growth",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "exercise",
+      "translation": "การออกกำลังกาย",
+      "definition": "Activity requiring physical effort",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "diet",
+      "translation": "อาหารควบคุม",
+      "definition": "The kinds of food a person habitually eats",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "weight",
+      "translation": "น้ำหนัก",
+      "definition": "The measure of how heavy something is",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "height",
+      "translation": "ความสูง",
+      "definition": "The measurement from base to top",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "length",
+      "translation": "ความยาว",
+      "definition": "The measurement from end to end",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "width",
+      "translation": "ความกว้าง",
+      "definition": "The measurement from side to side",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "depth",
+      "translation": "ความลึก",
+      "definition": "The distance from top to bottom",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "temperature",
+      "translation": "อุณหภูมิ",
+      "definition": "The degree of hotness or coldness",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "season",
+      "translation": "ฤดูกาล",
+      "definition": "Each of the four divisions of the year",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "spring",
+      "translation": "ฤดูใบไม้ผลิ",
+      "definition": "The season after winter",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "summer",
+      "translation": "ฤดูร้อน",
+      "definition": "The warmest season of the year",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "autumn",
+      "translation": "ฤดูใบไม้ร่วง",
+      "definition": "The season after summer",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "winter",
+      "translation": "ฤดูหนาว",
+      "definition": "The coldest season of the year",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "rain",
+      "translation": "ฝน",
+      "definition": "Water falling from clouds",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "snow",
+      "translation": "หิมะ",
+      "definition": "Frozen water crystals falling from the sky",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "wind",
+      "translation": "ลม",
+      "definition": "Moving air",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "cloud",
+      "translation": "เมฆ",
+      "definition": "A mass of water vapor in the sky",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "storm",
+      "translation": "พายุ",
+      "definition": "Violent weather with wind and rain",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "lightning",
+      "translation": "ฟ้าผ่า",
+      "definition": "A bright flash of electricity in the sky",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "baby",
+      "translation": "ทารก",
+      "definition": "A very young child",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "boy",
+      "translation": "เด็กชาย",
+      "definition": "A male child",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "girl",
+      "translation": "เด็กหญิง",
+      "definition": "A female child",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "man",
+      "translation": "ผู้ชาย",
+      "definition": "An adult male person",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "woman",
+      "translation": "ผู้หญิง",
+      "definition": "An adult female person",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "brother",
+      "translation": "พี่ชาย/น้องชาย",
+      "definition": "A male sibling",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "sister",
+      "translation": "พี่สาว/น้องสาว",
+      "definition": "A female sibling",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "son",
+      "translation": "ลูกชาย",
+      "definition": "A male child",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "daughter",
+      "translation": "ลูกสาว",
+      "definition": "A female child",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "husband",
+      "translation": "สามี",
+      "definition": "A married man",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "wife",
+      "translation": "ภรรยา",
+      "definition": "A married woman",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "grandfather",
+      "translation": "ปู่/ตา",
+      "definition": "The father of one's parent",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "grandmother",
+      "translation": "ย่า/ยาย",
+      "definition": "The mother of one's parent",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "uncle",
+      "translation": "ลุง/น้า/อา",
+      "definition": "The brother of one's parent",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "aunt",
+      "translation": "ป้า/น้า",
+      "definition": "The sister of one's parent",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "cousin",
+      "translation": "ลูกพี่ลูกน้อง",
+      "definition": "A child of one's uncle or aunt",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "bed",
+      "translation": "เตียง",
+      "definition": "A piece of furniture for sleeping",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "sofa",
+      "translation": "โซฟา",
+      "definition": "A long upholstered seat",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "desk",
+      "translation": "โต๊ะทำงาน",
+      "definition": "A table for writing or working",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "lamp",
+      "translation": "โคมไฟ",
+      "definition": "A device producing light",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "mirror",
+      "translation": "กระจก",
+      "definition": "A reflective glass surface",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "clock",
+      "translation": "นาฬิกา",
+      "definition": "An instrument measuring time",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "picture",
+      "translation": "รูปภาพ",
+      "definition": "A visual representation",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "photo",
+      "translation": "ภาพถ่าย",
+      "definition": "A photograph",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "wall",
+      "translation": "ผนัง",
+      "definition": "A vertical structure dividing space",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "floor",
+      "translation": "พื้น",
+      "definition": "The lower surface of a room",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "ceiling",
+      "translation": "เพดาน",
+      "definition": "The upper interior surface",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "roof",
+      "translation": "หลังคา",
+      "definition": "The top covering of a building",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "stairs",
+      "translation": "บันได",
+      "definition": "A set of steps",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "bedroom",
+      "translation": "ห้องนอน",
+      "definition": "A room for sleeping",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "bathroom",
+      "translation": "ห้องน้ำ",
+      "definition": "A room with a toilet and sink",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "toilet",
+      "translation": "ส้วม",
+      "definition": "A bowl for waste disposal",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "shower",
+      "translation": "ฝักบัว",
+      "definition": "A device spraying water for washing",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "towel",
+      "translation": "ผ้าเช็ดตัว",
+      "definition": "A cloth for drying",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "soap",
+      "translation": "สะบู",
+      "definition": "A substance for washing",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "toothbrush",
+      "translation": "แปรงสีฟัน",
+      "definition": "A brush for cleaning teeth",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "toothpaste",
+      "translation": "ยาสีฟัน",
+      "definition": "Paste for cleaning teeth",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "comb",
+      "translation": "หวี",
+      "definition": "A tool for arranging hair",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "brush",
+      "translation": "แปรง",
+      "definition": "A tool with bristles",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "shampoo",
+      "translation": "แชมพู",
+      "definition": "Liquid for washing hair",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "breakfast",
+      "translation": "อาหารเช้า",
+      "definition": "The first meal of the day",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "lunch",
+      "translation": "อาหารกลางวัน",
+      "definition": "The midday meal",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "dinner",
+      "translation": "อาหารเย็น",
+      "definition": "The evening meal",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "snack",
+      "translation": "ของว่าง",
+      "definition": "A light meal between meals",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "meal",
+      "translation": "มื้ออาหาร",
+      "definition": "Food eaten at a regular time",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "menu",
+      "translation": "เมนู",
+      "definition": "A list of food available",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "waiter",
+      "translation": "บริกร",
+      "definition": "A person serving food",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "chef",
+      "translation": "เชฟ",
+      "definition": "A professional cook",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "recipe",
+      "translation": "สูตรอาหาร",
+      "definition": "Instructions for cooking",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "potato",
+      "translation": "มันฝรั่ง",
+      "definition": "A starchy root vegetable",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "tomato",
+      "translation": "มะเขือเทศ",
+      "definition": "A red round fruit used as vegetable",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "onion",
+      "translation": "หอม",
+      "definition": "A round vegetable with layers",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "carrot",
+      "translation": "แครอท",
+      "definition": "An orange root vegetable",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "cucumber",
+      "translation": "แตงกวา",
+      "definition": "A long green vegetable",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "lettuce",
+      "translation": "ผักกาดหอม",
+      "definition": "A leafy green vegetable",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "cabbage",
+      "translation": "กะหล่ำปลี",
+      "definition": "A round leafy vegetable",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "corn",
+      "translation": "ข้าวโพด",
+      "definition": "Yellow kernels on a cob",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "bean",
+      "translation": "ถั่ว",
+      "definition": "An edible seed or pod",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "pea",
+      "translation": "ถั่วลันเตา",
+      "definition": "A small round green vegetable",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "mushroom",
+      "translation": "เห็ด",
+      "definition": "A fungus with a stem and cap",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "pepper",
+      "translation": "พริกไทย",
+      "definition": "A spicy or mild seasoning",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "lemon",
+      "translation": "มะนาว",
+      "definition": "A yellow citrus fruit",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "peach",
+      "translation": "ลูกพีช",
+      "definition": "A soft fuzzy fruit",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "pear",
+      "translation": "ลูกแพร์",
+      "definition": "A sweet fruit wider at the bottom",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "cherry",
+      "translation": "เชอร์รี่",
+      "definition": "A small round red fruit",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "watermelon",
+      "translation": "แตงโม",
+      "definition": "A large fruit with red flesh",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "melon",
+      "translation": "แตง",
+      "definition": "A large sweet fruit",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "mango",
+      "translation": "มะม่วง",
+      "definition": "A tropical sweet fruit",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "pineapple",
+      "translation": "สับปะรด",
+      "definition": "A tropical fruit with spiky skin",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "coconut",
+      "translation": "มะพร้าว",
+      "definition": "A large nut with hard shell",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "nut",
+      "translation": "ถั่ว/เม็ดแข็ง",
+      "definition": "A hard-shelled seed",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "cookie",
+      "translation": "คุกกี้",
+      "definition": "A sweet baked snack",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "cake",
+      "translation": "เค้ก",
+      "definition": "A sweet baked dessert",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "pie",
+      "translation": "พาย",
+      "definition": "A baked dish with pastry",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "candy",
+      "translation": "ลูกอม",
+      "definition": "A sweet confection",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "chocolate",
+      "translation": "ช็อกโกแลต",
+      "definition": "A sweet brown food",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "ice",
+      "translation": "น้ำแข็ง",
+      "definition": "Frozen water",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "cream",
+      "translation": "ครีม",
+      "definition": "A thick dairy product",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "yogurt",
+      "translation": "โยเกิร์ต",
+      "definition": "A fermented milk product",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "honey",
+      "translation": "น้ำผึ้ง",
+      "definition": "A sweet sticky substance",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "jam",
+      "translation": "แยม",
+      "definition": "A sweet fruit preserve",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "oil",
+      "translation": "น้ำมัน",
+      "definition": "A liquid fat used in cooking",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "vinegar",
+      "translation": "น้ำส้มสายชู",
+      "definition": "A sour liquid for cooking",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "sauce",
+      "translation": "ซอส",
+      "definition": "A liquid condiment",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "bottle",
+      "translation": "ขวด",
+      "definition": "A container for liquids",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "can",
+      "translation": "กระป๋อง",
+      "definition": "A metal container",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "box",
+      "translation": "กล่อง",
+      "definition": "A container with sides",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "basket",
+      "translation": "ตะกร้า",
+      "definition": "A woven container",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "pot",
+      "translation": "หม้อ",
+      "definition": "A cooking container",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "pan",
+      "translation": "กระทะ",
+      "definition": "A flat cooking vessel",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "kettle",
+      "translation": "กาต้มน้ำ",
+      "definition": "A container for boiling water",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "stove",
+      "translation": "เตา",
+      "definition": "An appliance for cooking",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "oven",
+      "translation": "เตาอบ",
+      "definition": "An enclosed space for baking",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "refrigerator",
+      "translation": "ตู้เย็น",
+      "definition": "An appliance for keeping food cold",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "freezer",
+      "translation": "ช่องแช่แข็ง",
+      "definition": "A compartment for freezing",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "microwave",
+      "translation": "ไมโครเวฟ",
+      "definition": "An oven using electromagnetic waves",
+      "partOfSpeech": "noun",
+      "level": "A1"
+    },
+    {
+      "word": "blender",
+      "translation": "เครื่องปั่น",
+      "definition": "A device for mixing food",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "toaster",
+      "translation": "เครื่องปิ้งขนมปัง",
+      "definition": "A device for toasting bread",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "sink",
+      "translation": "อ่างล้างจาน",
+      "definition": "A basin with a drain",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "tap",
+      "translation": "ก้อกน้ำ",
+      "definition": "A device controlling water flow",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "drawer",
+      "translation": "ลิ้นชัก",
+      "definition": "A sliding storage compartment",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "cupboard",
+      "translation": "ตู้เก็บของ",
+      "definition": "A cabinet for storage",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "shelf",
+      "translation": "ชั้นวาง",
+      "definition": "A flat board for storing items",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "wardrobe",
+      "translation": "ตู้เสื้อผ้า",
+      "definition": "A closet for clothes",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "curtain",
+      "translation": "ม่าน",
+      "definition": "Fabric hanging at windows",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "carpet",
+      "translation": "พรม",
+      "definition": "A thick fabric floor covering",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "rug",
+      "translation": "พรมเล็ก",
+      "definition": "A small floor covering",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "pillow",
+      "translation": "หมอน",
+      "definition": "A cushion for the head",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "blanket",
+      "translation": "ผ้าห่ม",
+      "definition": "A covering for warmth",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "sheet",
+      "translation": "ผ้าปูที่นอน",
+      "definition": "A large piece of fabric for beds",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "mattress",
+      "translation": "ที่นอน",
+      "definition": "A padded bed covering",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "alarm",
+      "translation": "สัญญาณเตือน",
+      "definition": "A warning sound or device",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "bell",
+      "translation": "กระดิ่ง",
+      "definition": "A device that makes ringing sounds",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "button",
+      "translation": "ปุ่ม",
+      "definition": "A small fastener or switch",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "switch",
+      "translation": "สวิตช์",
+      "definition": "A device for turning on or off",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "plug",
+      "translation": "ปลั๊ก",
+      "definition": "An electrical connector",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "socket",
+      "translation": "เต้าเสียบ",
+      "definition": "An electrical outlet",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "wire",
+      "translation": "สายไฟ",
+      "definition": "A metal thread conducting electricity",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "battery",
+      "translation": "แบตเตอรี่",
+      "definition": "A device storing electrical energy",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "charger",
+      "translation": "ที่ชาร์จ",
+      "definition": "A device for charging batteries",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "cable",
+      "translation": "สายเคเบิล",
+      "definition": "A thick wire or rope",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "screen",
+      "translation": "หน้าจอ",
+      "definition": "A surface for displaying images",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "keyboard",
+      "translation": "คีย์บอร์ด",
+      "definition": "A panel of keys for typing",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "mouse",
+      "translation": "เมาส์",
+      "definition": "A pointing device for computers",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "printer",
+      "translation": "เครื่องพิมพ์",
+      "definition": "A device for printing documents",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "scanner",
+      "translation": "สแกนเนอร์",
+      "definition": "A device for copying images",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "speaker",
+      "translation": "ลำโพง",
+      "definition": "A device outputting sound",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "headphone",
+      "translation": "หูฟัง",
+      "definition": "A pair of earphones",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "microphone",
+      "translation": "ไมโครโฟน",
+      "definition": "A device for recording sound",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "remote",
+      "translation": "รีโมท",
+      "definition": "A device for controlling from a distance",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "radio",
+      "translation": "วิทยุ",
+      "definition": "A device for receiving broadcast signals",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "CD",
+      "translation": "ซีดี",
+      "definition": "A compact disc for storing data",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "DVD",
+      "translation": "ดีวีดี",
+      "definition": "A digital video disc",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "video",
+      "translation": "วิดีโอ",
+      "definition": "A recording of moving images",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "channel",
+      "translation": "ช่อง",
+      "definition": "A television or radio station",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "program",
+      "translation": "รายการ",
+      "definition": "A broadcast show",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "news",
+      "translation": "ข่าว",
+      "definition": "Information about recent events",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "story",
+      "translation": "เรื่อง",
+      "definition": "A narrative account of events",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "joke",
+      "translation": "ตลก",
+      "definition": "Something said to cause laughter",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "game",
+      "translation": "เกม",
+      "definition": "An activity for entertainment",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "toy",
+      "translation": "ของเล่น",
+      "definition": "An object for children to play with",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "doll",
+      "translation": "ตุ๊กตา",
+      "definition": "A toy representing a person",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "ball",
+      "translation": "ลูกบอล",
+      "definition": "A round object for playing",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "balloon",
+      "translation": "ลูกโป่ง",
+      "definition": "An inflatable rubber bag",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "puzzle",
+      "translation": "ปริศนา",
+      "definition": "A game testing ingenuity",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "card",
+      "translation": "ไพ่",
+      "definition": "A piece of stiff paper for games",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "board",
+      "translation": "กระดาน",
+      "definition": "A flat piece of material",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "dice",
+      "translation": "ลูกเต๋า",
+      "definition": "A small cube with numbered sides",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "chess",
+      "translation": "หมากรุก",
+      "definition": "A strategic board game",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "match",
+      "translation": "การแข่งขัน",
+      "definition": "A contest between opponents",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "team",
+      "translation": "ทีม",
+      "definition": "A group working together",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "player",
+      "translation": "ผู้เล่น",
+      "definition": "A person taking part in a game",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "coach",
+      "translation": "โค้ช",
+      "definition": "A person training athletes",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "stadium",
+      "translation": "สนามกีฬา",
+      "definition": "A venue for sports events",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "gym",
+      "translation": "ยิม",
+      "definition": "A place for physical exercise",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "pool",
+      "translation": "สระว่ายน้ำ",
+      "definition": "An artificial water basin for swimming",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "beach",
+      "translation": "ชายหาด",
+      "definition": "A sandy shore by water",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "sea",
+      "translation": "ทะเล",
+      "definition": "A large body of salt water",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "wave",
+      "translation": "คลื่น",
+      "definition": "A moving ridge of water",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "sand",
+      "translation": "ทราย",
+      "definition": "Fine loose grains of rock",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "shell",
+      "translation": "เปลือกหอย",
+      "definition": "A hard protective covering",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "stone",
+      "translation": "หิน",
+      "definition": "A piece of rock",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "rock",
+      "translation": "ก้อนหิน",
+      "definition": "A large stone",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "cliff",
+      "translation": "หน้าผา",
+      "definition": "A steep rock face",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "cave",
+      "translation": "ถ้ำ",
+      "definition": "A large underground chamber",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "valley",
+      "translation": "หุบเขา",
+      "definition": "A low area between hills",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "hill",
+      "translation": "เนินเขา",
+      "definition": "A naturally raised area",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "field",
+      "translation": "ทุ่ง",
+      "definition": "An area of open land",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "farm",
+      "translation": "ฟาร์ม",
+      "definition": "Land used for agriculture",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "farmer",
+      "translation": "เกษตรกร",
+      "definition": "A person who works on a farm",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "crop",
+      "translation": "พืชผล",
+      "definition": "A cultivated plant grown for food",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "harvest",
+      "translation": "การเก็บเกี่ยว",
+      "definition": "The gathering of crops",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "tractor",
+      "translation": "แทรกเตอร์",
+      "definition": "A vehicle for pulling farm equipment",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "cow",
+      "translation": "วัว",
+      "definition": "A large farm animal",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "pig",
+      "translation": "หมู",
+      "definition": "A farm animal with pink skin",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "sheep",
+      "translation": "แกะ",
+      "definition": "A woolly farm animal",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "goat",
+      "translation": "แพะ",
+      "definition": "An animal with horns",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "horse",
+      "translation": "ม้า",
+      "definition": "A large four-legged animal",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "donkey",
+      "translation": "ลา",
+      "definition": "An animal related to horses",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "duck",
+      "translation": "เป็ด",
+      "definition": "A waterbird with webbed feet",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "goose",
+      "translation": "ห่าน",
+      "definition": "A large waterbird",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "turkey",
+      "translation": "ไก่งวง",
+      "definition": "A large bird raised for meat",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "rabbit",
+      "translation": "กระต่าย",
+      "definition": "A small furry animal with long ears",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "mouse",
+      "translation": "หนู",
+      "definition": "A small rodent",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "rat",
+      "translation": "หนูใหญ่",
+      "definition": "A rodent larger than a mouse",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "squirrel",
+      "translation": "กระรอก",
+      "definition": "A small tree-climbing animal",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "bird",
+      "translation": "นก",
+      "definition": "A feathered flying animal",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "eagle",
+      "translation": "นกอินทรี",
+      "definition": "A large bird of prey",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "owl",
+      "translation": "นกฮูก",
+      "definition": "A nocturnal bird",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "crow",
+      "translation": "กา",
+      "definition": "A large black bird",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "pigeon",
+      "translation": "นกพิราบ",
+      "definition": "A plump gray and white bird",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "parrot",
+      "translation": "นกแก้ว",
+      "definition": "A colorful tropical bird",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "wing",
+      "translation": "ปีก",
+      "definition": "A limb used for flying",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "feather",
+      "translation": "ขนนก",
+      "definition": "A structure covering birds",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "beak",
+      "translation": "จงอยปาก",
+      "definition": "A bird's mouth",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "nest",
+      "translation": "รัง",
+      "definition": "A structure for laying eggs",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "insect",
+      "translation": "แมลง",
+      "definition": "A small arthropod animal",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "bee",
+      "translation": "ผึ้ง",
+      "definition": "A flying insect that makes honey",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "butterfly",
+      "translation": "ผีเสื้อ",
+      "definition": "An insect with colorful wings",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "ant",
+      "translation": "มด",
+      "definition": "A small social insect",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "spider",
+      "translation": "แมงมุม",
+      "definition": "An eight-legged creature",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "fly",
+      "translation": "แมลงวัน",
+      "definition": "A small flying insect",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "mosquito",
+      "translation": "ยุง",
+      "definition": "A biting insect",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "snake",
+      "translation": "งู",
+      "definition": "A legless reptile",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "lizard",
+      "translation": "จิ้งจก",
+      "definition": "A four-legged reptile",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "frog",
+      "translation": "กบ",
+      "definition": "An amphibian that jumps",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "turtle",
+      "translation": "เต่า",
+      "definition": "A reptile with a shell",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "shark",
+      "translation": "ฉลาม",
+      "definition": "A large predatory fish",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "whale",
+      "translation": "วาฬ",
+      "definition": "A very large marine mammal",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "dolphin",
+      "translation": "โลมา",
+      "definition": "An intelligent marine mammal",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "crab",
+      "translation": "ปู",
+      "definition": "A crustacean with claws",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "shrimp",
+      "translation": "กุ้ง",
+      "definition": "A small marine crustacean",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "octopus",
+      "translation": "ปลาหมึก",
+      "definition": "A sea creature with eight arms",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "lion",
+      "translation": "สิงโต",
+      "definition": "A large wild cat",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "tiger",
+      "translation": "เสือ",
+      "definition": "A large striped cat",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "bear",
+      "translation": "หมี",
+      "definition": "A large furry mammal",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "elephant",
+      "translation": "ช้าง",
+      "definition": "A large animal with a trunk",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "monkey",
+      "translation": "ลิง",
+      "definition": "A primate with a long tail",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "giraffe",
+      "translation": "ยีราฟ",
+      "definition": "An animal with a very long neck",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "zebra",
+      "translation": "ม้าลาย",
+      "definition": "A striped horse-like animal",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "kangaroo",
+      "translation": "จิงโจ้",
+      "definition": "An Australian animal that hops",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "penguin",
+      "translation": "เพนกวิน",
+      "definition": "A flightless seabird",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "zoo",
+      "translation": "สวนสัตว์",
+      "definition": "A place where animals are kept",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "cage",
+      "translation": "กรง",
+      "definition": "A structure for confining animals",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "fence",
+      "translation": "รั้ว",
+      "definition": "A barrier enclosing an area",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "gate",
+      "translation": "ประตู",
+      "definition": "An opening in a fence or wall",
+      "partOfSpeech": "noun",
+      "level": "A2"
+    },
+    {
+      "word": "yard",
+      "translation": "ลาน",
+      "definition": "An enclosed outdoor area",
+      "partOfSpeech": "noun",
+      "level": "A2"
     }
   ]
 

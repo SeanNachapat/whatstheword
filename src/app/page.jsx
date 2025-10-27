@@ -5,6 +5,7 @@ import Allwords from './word';
 import ScoreBoard from './components/Scoreboard';
 import Progress from './components/Progress';
 import { HiOutlineBars3 } from "react-icons/hi2";
+import Footer from './components/Footer';
 
 const ButtonComponents = ({
       text = "",
@@ -176,11 +177,32 @@ const App = () => {
             localStorage.setItem("users", JSON.stringify(users));
       };
 
+      function countVocabularyByLevel(data) {
+            const counts = { A1: 0, A2: 0, B1: 0, B2: 0, C1: 0, C2: 0 };
+            
+            Allwords.forEach(word => {
+                  if (counts.hasOwnProperty(word.level)) {
+                  counts[word.level]++;
+                  }
+            });
+            
+            return counts;
+      }
+
+      // Get counts
+      const levelCounts = countVocabularyByLevel(Allwords);
+      const totalWords = Object.values(levelCounts).reduce((sum, count) => sum + count, 0);
+
+
 
       return (
             <>
                   {/* <Progress timer={0} /> */}
-                  <ScoreBoard />
+                  {/* <button
+                  className='text-2xl text-black absolute flex top-0 right-0 p-2 m-5 outline outline-1 rounded-lg hover:scale-105 transition-all'>
+                        <HiOutlineBars3 />
+                  </button> */}
+                  <div className='absolute p-3 m-3'><ScoreBoard/></div>
                   <div className="w-screen h-screen flex justify-center items-center flex-col gap-8">
                         <div className="text-2xl md:text-5xl text-black/70 font-bold">
                               ช่วยทายหน่อยคำนี้แปลว่าอะไร ?
@@ -247,16 +269,35 @@ const App = () => {
                                     ((tryWord >= 3) ? <ButtonComponents onClick={() => SeeAnswer()} text="เฉลย" /> : null)
                               }
                         </div>
-
-                        {/* <div className="flex items-center">
-                              <div className="text-sm">
-                                    คำแนะนำ :
+                        <div className="flex gap-5 text-sm text-gray-400">
+                              <div className="flex gap-2"> 
+                                    <div className="">
+                                          A1 - A2 :
+                                    </div>
+                                    <div className=" underline italic font-light">
+                                          {levelCounts.A1 + levelCounts.A2}
+                                    </div>
                               </div>
-                              <div className="text-md">
-                                    ทายให้ถูกนะแจ๊ะ
+                              <div className="flex gap-2"> 
+                                    <div className="">
+                                          B1 - B2 :
+                                    </div>
+                                    <div className=" underline italic font-light">
+                                          {levelCounts.B1 + levelCounts.B2}
+                                    </div>
                               </div>
-                        </div> */}
+                              <div className="flex gap-2"> 
+                                    <div className="">
+                                          C1 - C2 :
+                                    </div>
+                                    <div className=" underline italic font-light">
+                                          {levelCounts.C1 + levelCounts.C2}
+                                    </div>
+                              </div>
+                              
+                        </div>
                   </div>
+                  <Footer />
             </>
       )
 }
