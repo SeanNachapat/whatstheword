@@ -2,6 +2,7 @@
 
 import { useState, useRef, useEffect } from 'react';
 import Allwords from './word';
+import { generateWords } from '../../lib/gemini';
 import ScoreBoard from './components/Scoreboard';
 import Progress from './components/Progress';
 import { HiOutlineBars3 } from "react-icons/hi2";
@@ -33,8 +34,10 @@ const App = () => {
       const inputRef = useRef([]);
       const [shake, setShake] = useState(false);
       const [isCorrect, setIsCorrect] = useState(false);
-
       const [tryWord, setTryWord] = useState(0)
+
+      const [gameWords, setGameWords] = useState([]);
+      const [loading, setLoading] = useState(true);
 
       const triggerShake = () => {
             setShake(true);
@@ -43,22 +46,40 @@ const App = () => {
       };
 
       useEffect(() => {
-            // initial
-            if (word.word.length == 0) {
-                  RandomWord();
+            const fetchWords = async () => {
+                  setLoading(true);
+                  const res = await generateWords();
+                  if (res.status) {
+                        setGameWords(res.data);
+                        setLoading(false);
+                  } else {
+                        console.error("Failed to fetch words:", res.message);
+                        setGameWords(Allwords);
+                        setLoading(false);
+                  }
             }
+            fetchWords();
       }, [])
 
+      useEffect(() => {
+            if (!loading && gameWords.length > 0 && word.word.length == 0) {
+                  RandomWord();
+            }
+      }, [loading, gameWords])
+
       const RandomWord = () => {
-            const Rand = Math.floor(Math.random() * Allwords.length)
-            const newWord = Allwords[Rand].word.split("")
+            if (gameWords.length === 0) return;
+
+            const Rand = Math.floor(Math.random() * gameWords.length)
+            const targetWord = gameWords[Rand];
+            const newWord = targetWord.word.split("")
 
             setWord({
                   word: newWord,
-                  translation: Allwords[Rand].translation,
-                  definition: Allwords[Rand].definition,
-                  partOfSpeech: Allwords[Rand].partOfSpeech,
-                  level: Allwords[Rand].level
+                  translation: targetWord.translation,
+                  definition: targetWord.definition,
+                  partOfSpeech: targetWord.partOfSpeech,
+                  level: targetWord.level
             })
             setWordInput(Array(newWord.length).fill(""))
             setIsCorrect(false);
@@ -179,13 +200,13 @@ const App = () => {
 
       function countVocabularyByLevel(data) {
             const counts = { A1: 0, A2: 0, B1: 0, B2: 0, C1: 0, C2: 0 };
-            
+
             Allwords.forEach(word => {
                   if (counts.hasOwnProperty(word.level)) {
-                  counts[word.level]++;
+                        counts[word.level]++;
                   }
             });
-            
+
             return counts;
       }
 
@@ -202,7 +223,7 @@ const App = () => {
                   className='text-2xl text-black absolute flex top-0 right-0 p-2 m-5 outline outline-1 rounded-lg hover:scale-105 transition-all'>
                         <HiOutlineBars3 />
                   </button> */}
-                  <div className='absolute p-3 m-3'><ScoreBoard/></div>
+                  <div className='absolute p-3 m-3'><ScoreBoard /></div>
                   <div className="w-screen h-screen flex justify-center items-center flex-col gap-8">
                         <div className="text-2xl md:text-5xl text-black/70 font-bold">
                               ช่วยทายหน่อยคำนี้แปลว่าอะไร ?
@@ -269,8 +290,9 @@ const App = () => {
                                     ((tryWord >= 3) ? <ButtonComponents onClick={() => SeeAnswer()} text="เฉลย" /> : null)
                               }
                         </div>
-                        <div className="flex gap-5 text-sm text-gray-400">
-                              <div className="flex gap-2"> 
+                        <div className="flex gap-5 text-sm text-gray-400">EXPERIMENTAL WORD GENERATION</div>
+                        {/* <div className="flex gap-5 text-sm text-gray-400">
+                              <div className="flex gap-2">
                                     <div className="">
                                           A1 - A2 :
                                     </div>
@@ -278,7 +300,7 @@ const App = () => {
                                           {levelCounts.A1 + levelCounts.A2}
                                     </div>
                               </div>
-                              <div className="flex gap-2"> 
+                              <div className="flex gap-2">
                                     <div className="">
                                           B1 - B2 :
                                     </div>
@@ -286,7 +308,7 @@ const App = () => {
                                           {levelCounts.B1 + levelCounts.B2}
                                     </div>
                               </div>
-                              <div className="flex gap-2"> 
+                              <div className="flex gap-2">
                                     <div className="">
                                           C1 - C2 :
                                     </div>
@@ -294,8 +316,8 @@ const App = () => {
                                           {levelCounts.C1 + levelCounts.C2}
                                     </div>
                               </div>
-                              
-                        </div>
+
+                        </div> */}
                   </div>
                   <Footer />
             </>
